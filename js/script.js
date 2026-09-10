@@ -1,9 +1,9 @@
 /**
  * MerC APPERALS AND ACCESSORIES - Corporate Gifting Catalogue Engine
- * WhatsApp: +91 99200 71358 | Location: Navi Mumbai
+ * WhatsApp: +91 70454 93582 | Location: Navi Mumbai
  */
 
-const WHATSAPP_NUMBER = "919920071358";
+const WHATSAPP_NUMBER = "917045493582";
 
 // 10 Authentic Corporate Categories mapped from catalog assets
 const CATEGORIES = [
