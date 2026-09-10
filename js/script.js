@@ -952,7 +952,10 @@ function openProductModal(productId) {
   const modalWhatsAppBtn = document.getElementById("modalCategoryWhatsAppBtn");
   const modalCategoryPrompt = document.getElementById("modalCategoryPrompt");
 
-  if (modalImg) modalImg.src = product.image;
+  if (modalImg) {
+    modalImg.src = product.image;
+    modalImg.alt = product.name;
+  }
   if (modalCatBadge && cat) modalCatBadge.textContent = cat.name;
   if (modalTitle) modalTitle.textContent = product.name;
   if (modalSubtitle) modalSubtitle.textContent = product.subtitle;
@@ -1078,11 +1081,22 @@ document.addEventListener("DOMContentLoaded", () => {
   renderAllCatalogViews();
   setupEventListeners();
 
-  // Check URL query parameters for category filter
+  // Check URL query parameters for category filter or direct product modal
   const urlParams = new URLSearchParams(window.location.search);
   const catParam = urlParams.get("category");
   if (catParam && CATEGORIES.some(c => c.id === catParam)) {
     selectCategory(catParam);
+  }
+
+  const prodParam = urlParams.get("product");
+  if (prodParam && PRODUCTS.some(p => p.id === prodParam)) {
+    const modal = document.getElementById("productModal");
+    if (modal) modal.style.transition = "none";
+    openProductModal(prodParam);
+    if (modal) {
+      void modal.offsetHeight;
+      modal.style.transition = "";
+    }
   }
 
   // Update year in footer
