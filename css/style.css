@@ -431,7 +431,7 @@ button, input {
   display: flex;
   align-items: center;
   overflow: hidden;
-  background-color: #dbeaf7; /* Seamless match with light-blue photograph background */
+  background: linear-gradient(135deg, #f0f8ff 0%, #ffffff 45%, #ffffff 100%);
 }
 
 .hero-canvas-wrap {
@@ -440,18 +440,24 @@ button, input {
   width: 100%;
   height: 100%;
   z-index: 0;
+  background: transparent;
 }
 
 .hero-canvas-picture {
   display: block;
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 .hero-canvas-img {
-  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
   height: 100%;
-  object-fit: cover;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
   object-position: right center;
   display: block;
 }
@@ -462,10 +468,11 @@ button, input {
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(219, 234, 247, 0.96) 0%,
-    rgba(219, 234, 247, 0.88) 36%,
-    rgba(219, 234, 247, 0.4) 58%,
-    rgba(219, 234, 247, 0) 100%
+    rgba(240, 248, 255, 0.98) 0%,
+    rgba(244, 250, 255, 0.94) 28%,
+    rgba(255, 255, 255, 0.7) 45%,
+    rgba(255, 255, 255, 0.15) 58%,
+    rgba(255, 255, 255, 0) 70%
   );
   pointer-events: none;
 }
@@ -1578,18 +1585,21 @@ button, input {
   .hero-canvas-img {
     width: 100%;
     height: 100%;
+    position: absolute;
+    inset: 0;
     object-fit: cover;
     object-position: center bottom;
   }
 
-  /* Subtle soft overlay: top is delicate tint for text crispness, bottom is 100% clear for branded products */
+  /* Soft gradient blending from top brand tint down to clear photo products */
   .hero-canvas-overlay {
     background: linear-gradient(
       180deg,
-      rgba(219, 234, 247, 0.65) 0%,
-      rgba(219, 234, 247, 0.35) 32%,
-      rgba(219, 234, 247, 0.08) 50%,
-      rgba(219, 234, 247, 0) 65%
+      rgba(240, 248, 255, 0.98) 0%,
+      rgba(244, 250, 255, 0.94) 28%,
+      rgba(255, 255, 255, 0.82) 40%,
+      rgba(255, 255, 255, 0.2) 52%,
+      rgba(255, 255, 255, 0) 62%
     );
   }
 
@@ -1815,7 +1825,7 @@ button, input {
 
 @media (max-width: 400px) {
   .hero-editorial {
-    min-height: 640px;
+    min-height: 670px;
   }
 
   .hero-editorial-title {
