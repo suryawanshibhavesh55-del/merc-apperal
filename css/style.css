@@ -1813,9 +1813,12 @@ button, input {
 
   .hero-eyebrow-text {
     font-size: 0.6875rem;
-    letter-spacing: 0.14em;
+    letter-spacing: 0.07em;
+    line-height: 1.45;
     margin-bottom: 8px;
     color: #0369a1;
+    max-width: 100%;
+    word-break: normal;
   }
 
   .hero-editorial-title {
@@ -1833,7 +1836,7 @@ button, input {
     line-height: 1.45;
     color: #334155;
     margin-bottom: 12px;
-    max-width: 94%;
+    max-width: 100%;
   }
 
   .hero-editorial-actions {
@@ -2040,6 +2043,11 @@ button, input {
 @media (max-width: 400px) {
   .hero-editorial {
     min-height: 670px;
+  }
+
+  .hero-eyebrow-text {
+    font-size: 0.65rem;
+    letter-spacing: 0.05em;
   }
 
   .hero-editorial-title {
