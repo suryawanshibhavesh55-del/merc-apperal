@@ -21,7 +21,7 @@ const CATEGORIES = [
     name: "Custom Apparel & Sportswear",
     shortName: "Apparel & Sportswear",
     icon: "shirt",
-    representativeImage: "assets/WhatsApp Image 2026-09-02 at 3.01.42 PM.jpeg",
+    representativeImage: "assets/WhatsApp Image 2026-09-02 at 3.01.43 PM.jpeg",
     description: "Corporate pique polo shirts, performance athletic jerseys, fleeced sweatshirts, hoodies, and event staff tees.",
     customizationNote: "Computerized embroidery, high-density screen printing, digital sublimation, custom inner neck labels."
   },
@@ -31,7 +31,7 @@ const CATEGORIES = [
     shortName: "Mugs & Drinkware",
     icon: "coffee",
     representativeImage: "assets/WhatsApp Image 2026-09-02 at 2.49.37 PM (1).jpeg",
-    description: "Ceramic office coffee mugs, enamel campfire cups, automatic self-stirring mugs, and insulated thermal desk tumblers.",
+    description: "Ceramic office coffee mugs, enamel campfire cups, automatic self-stirring mugs, and executive thermal desk mugs.",
     customizationNote: "Full-color sublimation wrap, metallic spot prints, laser etching, dual-tone glazes."
   },
   {
@@ -90,27 +90,25 @@ const CATEGORIES = [
   },
   {
     id: "candles",
-    name: "Handcrafted Luxury Candles",
-    shortName: "Luxury Candles",
+    name: "Handcrafted Candle Holders & Décor",
+    shortName: "Candle Holders & Décor",
     icon: "flame",
     representativeImage: "assets/WhatsApp Image 2026-09-02 at 3.01.47 PM (2).jpeg",
-    description: "Geometric concrete tealight holders, ceramic lotus urli candles, and botanical ocean gel seashell glass candles.",
-    customizationNote: "Pure soy wax, custom essential oil aromatherapy scents, branded tags and festive gift packaging."
+    description: "Artisan jesmonite candle holders, geometric concrete tealight vessels, and handcrafted botanical gel candles.",
+    customizationNote: "Artisan jesmonite/concrete pigments, metallic gold detailing, custom festive gift packaging."
   }
 ];
 
-// Complete Catalog: Exactly 64 assets from the project
+// Indicative Corporate Bulk Pricing Guide for Mug Products
+const MUG_BULK_PRICING = [
+  { qty: "1–9", price: "₹500", unit: "/ unit" },
+  { qty: "10–50", price: "₹480", unit: "/ unit" },
+  { qty: "50–200", price: "₹460", unit: "/ unit" }
+];
+
+// Complete Catalog: Exactly 61 verified products from the project
 const PRODUCTS = [
   // 1. Corporate Gift Sets & Combos
-  {
-    id: "prod-001",
-    categoryId: "gift-sets",
-    name: "Executive Conference Portfolio Organizer Set",
-    image: "assets/WhatsApp Image 2026-09-10 at 12.13.33 AM.jpeg",
-    subtitle: "Complete Desk Conference Gift Suite",
-    description: "A comprehensive executive portfolio kit featuring a refillable ruled notepad, dual wooden ballpoints, eco wooden ruler, eraser, sticky note flags, and business card slots neatly encased in a foldable faux leather folio.",
-    customization: "Laser debossed logo on folio exterior, custom printed notepad headers, branded pen engraving."
-  },
   {
     id: "prod-002",
     categoryId: "gift-sets",
@@ -120,47 +118,13 @@ const PRODUCTS = [
     description: "High-impact new hire onboarding or athletic event kit including a stainless steel sports water bottle, dual ceramic team mugs, and matching high-density printed round coasters.",
     customization: "Unified organizational emblem printing across all three complementary products."
   },
-  {
-    id: "prod-003",
-    categoryId: "gift-sets",
-    name: "Employee Appreciation Mug & Gift Hamper Set",
-    image: "assets/WhatsApp Image 2026-09-02 at 3.01.46 PM (2).jpeg",
-    subtitle: "Custom Mug with Designer Gold Pattern Box & Keepsake",
-    description: "Signature corporate appreciation hamper featuring customized ceramic coffee mugs paired with luxury gold damask patterned gift boxes and personalized wooden keepsake cards.",
-    customization: "Client logo & employee appreciation graphics, custom gift wrap pattern, laser-engraved wooden message tag."
-  },
 
-  // 2. Custom Apparel & Sportswear
-  {
-    id: "prod-006",
-    categoryId: "apparel",
-    name: "Executive Corporate Polo T-Shirt (Contrast Collar)",
-    image: "assets/WhatsApp Image 2026-09-02 at 3.01.42 PM.jpeg",
-    subtitle: "White Pique Knit with Vibrant Accent Trim",
-    description: "Premium combed cotton pique corporate polo featuring bright accent collar and sleeve tipping, vertical company typography on the placket line, and embroidered chest crest.",
-    customization: "Screen printing, high-density embroidery, custom dyed collar tipping to match brand hex codes."
-  },
-  {
-    id: "prod-007",
-    categoryId: "apparel",
-    name: "Premium Solid Pique Polo T-Shirt (Forest Olive)",
-    image: "assets/WhatsApp Image 2026-09-02 at 3.01.43 PM.jpeg",
-    subtitle: "100% Cotton Breathable Classic Fit",
-    description: "Minimalist executive everyday corporate polo crafted from pre-shrunk combed cotton pique fabric with ribbed collar, reinforced 3-button placket, and side vents.",
-    customization: "Subtle tone-on-tone chest embroidery or contrast direct-to-garment corporate logo."
-  },
-  {
-    id: "prod-008",
-    categoryId: "apparel",
-    name: "Corporate Colorblock Hooded Sweatshirt",
-    image: "assets/WhatsApp Image 2026-09-02 at 3.01.44 PM (1).jpeg",
-    subtitle: "Tricolor Paneled Heavyweight Fleece Hoodie",
-    description: "Contemporary tri-panel fleece hoodie with kangaroo pocket, adjustable drawstring hood, ribbed cuffs and hem, tailored for team offsites and corporate retreats.",
-    customization: "Embroidered chest logo patch, screen printed back graphics, custom woven drawstring pullers."
-  },
+  // 2. Custom Apparel & Sportswear — Ordered: Round Neck -> Polo Neck -> Hoodies & Sweatshirts
+  // A. Round Neck T-Shirts
   {
     id: "prod-009",
     categoryId: "apparel",
+    apparelType: "round-neck",
     name: "Dual-Tone Raglan Corporate Event T-Shirt",
     image: "assets/WhatsApp Image 2026-09-02 at 3.01.44 PM (2).jpeg",
     subtitle: "Sky Blue & Navy Athletic Raglan Tee",
@@ -170,6 +134,7 @@ const PRODUCTS = [
   {
     id: "prod-010",
     categoryId: "apparel",
+    apparelType: "round-neck",
     name: "Milestone Commemorative Graphic Crewneck T-Shirt",
     image: "assets/WhatsApp Image 2026-09-02 at 3.01.44 PM.jpeg",
     subtitle: "Premium Bio-Washed Cotton Graphic Tee",
@@ -179,6 +144,7 @@ const PRODUCTS = [
   {
     id: "prod-011",
     categoryId: "apparel",
+    apparelType: "round-neck",
     name: "Sublimated Athletic Performance Jersey",
     image: "assets/WhatsApp Image 2026-09-02 at 3.01.45 PM (1).jpeg",
     subtitle: "All-Over Sublimation Quick-Dry Sports Tee",
@@ -186,26 +152,9 @@ const PRODUCTS = [
     customization: "Full 360-degree dye-sublimation, seamless team logo integration, numbered printing."
   },
   {
-    id: "prod-012",
-    categoryId: "apparel",
-    name: "Executive Performance Corporate Tracksuit Set",
-    image: "assets/WhatsApp Image 2026-09-02 at 3.01.45 PM (2).jpeg",
-    subtitle: "Full-Zip Track Jacket & Matching Joggers",
-    description: "Two-piece active corporate uniform featuring a mock-neck full-zip jacket with diagonal chevron blocking and tapered athletic track pants with elasticized ankle cuffs.",
-    customization: "Heat-seal silicone logo transfers, embroidered club crests, custom zipper pullers."
-  },
-  {
-    id: "prod-013",
-    categoryId: "apparel",
-    name: "Tricolor Performance Polo T-Shirt (National Series)",
-    image: "assets/WhatsApp Image 2026-09-02 at 3.01.45 PM.jpeg",
-    subtitle: "Engineered Dry-Fit Polo with Accent Arc",
-    description: "Professional dry-fit polo designed for delegations, tournament contingents, and institutional teams, featuring crisp white base fabric with sweeping athletic arc prints.",
-    customization: "Embroidered team crest, sponsor printing, moisture-wicking quick-dry fabric treatment."
-  },
-  {
     id: "prod-014",
     categoryId: "apparel",
+    apparelType: "round-neck",
     name: "Custom Graphic Crewneck T-Shirt (Royal Blue)",
     image: "assets/WhatsApp Image 2026-09-02 at 3.06.54 PM (1).jpeg",
     subtitle: "100% Ring-Spun Cotton Vibrant Daily Tee",
@@ -213,26 +162,9 @@ const PRODUCTS = [
     customization: "High-density plastisol screen print, metallic foil accents, personalized internal size labels."
   },
   {
-    id: "prod-015",
-    categoryId: "apparel",
-    name: "Dual-Tone Colorblocked Corporate Polo",
-    image: "assets/WhatsApp Image 2026-09-02 at 3.06.54 PM (2).jpeg",
-    subtitle: "Yellow & Navy Premium Pique Uniform Polo",
-    description: "Modern split color-block corporate uniform polo with sunshine yellow upper yoke and deep navy lower body, designed for high-visibility professional staff.",
-    customization: "Chest embroidery, company badge appliquÃ©, branded buttons."
-  },
-  {
-    id: "prod-016",
-    categoryId: "apparel",
-    name: "Tricolor Vertical Stripe Corporate Staff Polo",
-    image: "assets/WhatsApp Image 2026-09-02 at 3.06.54 PM (3).jpeg",
-    subtitle: "Navy Pique Polo with Engineered Vertical Ribbon",
-    description: "Dignified corporate polo shirt in rich midnight navy with vertical tricolor chest ribbon, crisp white collar, and embroidered institutional insignia.",
-    customization: "Direct institutional embroidery, bespoke color stripes matching brand identity."
-  },
-  {
     id: "prod-017",
     categoryId: "apparel",
+    apparelType: "round-neck",
     name: "Corporate Event Back-Print Crewneck T-Shirt",
     image: "assets/WhatsApp Image 2026-09-02 at 3.06.55 PM (1).jpeg",
     subtitle: "Royal Blue Crewneck with Bold Typography",
@@ -242,6 +174,7 @@ const PRODUCTS = [
   {
     id: "prod-018",
     categoryId: "apparel",
+    apparelType: "round-neck",
     name: "Heather Indigo Event Commemorative T-Shirt",
     image: "assets/WhatsApp Image 2026-09-02 at 3.06.55 PM (2).jpeg",
     subtitle: "Poly-Cotton Heather Blend Casual Event Tee",
@@ -251,6 +184,7 @@ const PRODUCTS = [
   {
     id: "prod-019",
     categoryId: "apparel",
+    apparelType: "round-neck",
     name: "Heritage Landmark Graphic Dry-Fit T-Shirt",
     image: "assets/WhatsApp Image 2026-09-02 at 3.06.55 PM.jpeg",
     subtitle: "Architectural Skyline Sublimation Tee",
@@ -258,26 +192,61 @@ const PRODUCTS = [
     customization: "Full sublimation with client's preferred city skyline or corporate campus architecture."
   },
   {
-    id: "prod-020",
-    categoryId: "apparel",
-    name: "Heavyweight Crewneck Fleece Sweatshirt",
-    image: "assets/WhatsApp Image 2026-09-02 at 3.06.56 PM (1).jpeg",
-    subtitle: "320 GSM Brushed Fleece Winter Uniform",
-    description: "Cozy brushed fleece corporate crewneck sweatshirt with ribbed collar, hem, and storm cuffs. Ideal for winter corporate gifting and chilly office workspaces.",
-    customization: "Diagonal slash typography print, chenille embroidery patch, laser-engraved leather hem tag."
-  },
-  {
     id: "prod-021",
     categoryId: "apparel",
+    apparelType: "round-neck",
     name: "Striped Sleeve Athletic Corporate T-Shirt",
     image: "assets/WhatsApp Image 2026-09-02 at 3.06.56 PM (2).jpeg",
     subtitle: "Navy Crewneck with Sporty Sleeve Bands",
     description: "Sporty corporate casual crewneck t-shirt featuring stitched contrast sleeve stripes and centered typographic branding, tailored for offsite team building.",
     customization: "Front chest badge printing, contrast sleeve banding in customized pantone colors."
   },
+
+  // B. Polo Neck T-Shirts
+  {
+    id: "prod-007",
+    categoryId: "apparel",
+    apparelType: "polo",
+    name: "Premium Solid Pique Polo T-Shirt (Forest Olive)",
+    image: "assets/WhatsApp Image 2026-09-02 at 3.01.43 PM.jpeg",
+    subtitle: "100% Cotton Breathable Classic Fit",
+    description: "Minimalist executive everyday corporate polo crafted from pre-shrunk combed cotton pique fabric with ribbed collar, reinforced 3-button placket, and side vents.",
+    customization: "Subtle tone-on-tone chest embroidery or contrast direct-to-garment corporate logo."
+  },
+  {
+    id: "prod-013",
+    categoryId: "apparel",
+    apparelType: "polo",
+    name: "Tricolor Performance Polo T-Shirt (National Series)",
+    image: "assets/WhatsApp Image 2026-09-02 at 3.01.45 PM.jpeg",
+    subtitle: "Engineered Dry-Fit Polo with Accent Arc",
+    description: "Professional dry-fit polo designed for delegations, tournament contingents, and institutional teams, featuring crisp white base fabric with sweeping athletic arc prints.",
+    customization: "Embroidered team crest, sponsor printing, moisture-wicking quick-dry fabric treatment."
+  },
+  {
+    id: "prod-015",
+    categoryId: "apparel",
+    apparelType: "polo",
+    name: "Dual-Tone Colorblocked Corporate Polo",
+    image: "assets/WhatsApp Image 2026-09-02 at 3.06.54 PM (2).jpeg",
+    subtitle: "Yellow & Navy Premium Pique Uniform Polo",
+    description: "Modern split color-block corporate uniform polo with sunshine yellow upper yoke and deep navy lower body, designed for high-visibility professional staff.",
+    customization: "Chest embroidery, company badge appliquée, branded buttons."
+  },
+  {
+    id: "prod-016",
+    categoryId: "apparel",
+    apparelType: "polo",
+    name: "Tricolor Vertical Stripe Corporate Staff Polo",
+    image: "assets/WhatsApp Image 2026-09-02 at 3.06.54 PM (3).jpeg",
+    subtitle: "Navy Pique Polo with Engineered Vertical Ribbon",
+    description: "Dignified corporate polo shirt in rich midnight navy with vertical tricolor chest ribbon, crisp white collar, and embroidered institutional insignia.",
+    customization: "Direct institutional embroidery, bespoke color stripes matching brand identity."
+  },
   {
     id: "prod-022",
     categoryId: "apparel",
+    apparelType: "polo",
     name: "Classic Pique Corporate Staff Polo (DW Badge)",
     image: "assets/WhatsApp Image 2026-09-02 at 3.06.56 PM.jpeg",
     subtitle: "Pristine White Pique Knit Everyday Uniform",
@@ -287,17 +256,71 @@ const PRODUCTS = [
   {
     id: "prod-023",
     categoryId: "apparel",
+    apparelType: "polo",
     name: "Women's Engineered Dry-Fit Polo T-Shirt",
     image: "assets/WhatsApp Image 2026-09-02 at 3.09.53 PM.jpeg",
     subtitle: "Contoured Fit Quick-Dry Athletic Polo",
     description: "Tailored athletic polo t-shirt for women, cut from quick-drying poly-spandex mesh with open V-placket, side venting panels, and vibrant vertical racing stripes.",
     customization: "Sublimated side panels, heat transfer team logos, custom collar color combinations."
   },
+  {
+    id: "prod-006",
+    categoryId: "apparel",
+    apparelType: "polo",
+    name: "Executive Corporate Polo T-Shirt (Contrast Collar)",
+    image: "assets/WhatsApp Image 2026-09-02 at 3.01.42 PM.jpeg",
+    subtitle: "White Pique Knit with Vibrant Accent Trim",
+    description: "Premium combed cotton pique corporate polo featuring bright accent collar and sleeve tipping, vertical company typography on the placket line, and embroidered chest crest.",
+    customization: "Screen printing, high-density embroidery, custom dyed collar tipping to match brand hex codes."
+  },
 
-  // 3. Custom Mugs & Drinkware
+  // C. Hoodies & Sweatshirts
+  {
+    id: "prod-008",
+    categoryId: "apparel",
+    apparelType: "hoodies",
+    name: "Corporate Colorblock Hooded Sweatshirt",
+    image: "assets/WhatsApp Image 2026-09-02 at 3.01.44 PM (1).jpeg",
+    subtitle: "Tricolor Paneled Heavyweight Fleece Hoodie",
+    description: "Contemporary tri-panel fleece hoodie with kangaroo pocket, adjustable drawstring hood, ribbed cuffs and hem, tailored for team offsites and corporate retreats.",
+    customization: "Embroidered chest logo patch, screen printed back graphics, custom woven drawstring pullers."
+  },
+  {
+    id: "prod-020",
+    categoryId: "apparel",
+    apparelType: "hoodies",
+    name: "Heavyweight Crewneck Fleece Sweatshirt",
+    image: "assets/WhatsApp Image 2026-09-02 at 3.06.56 PM (1).jpeg",
+    subtitle: "320 GSM Brushed Fleece Winter Uniform",
+    description: "Cozy brushed fleece corporate crewneck sweatshirt with ribbed collar, hem, and storm cuffs. Ideal for winter corporate gifting and chilly office workspaces.",
+    customization: "Diagonal slash typography print, chenille embroidery patch, laser-engraved leather hem tag."
+  },
+  {
+    id: "prod-012",
+    categoryId: "apparel",
+    apparelType: "hoodies",
+    name: "Executive Performance Corporate Tracksuit Set",
+    image: "assets/WhatsApp Image 2026-09-02 at 3.01.45 PM (2).jpeg",
+    subtitle: "Full-Zip Track Jacket & Matching Joggers",
+    description: "Two-piece active corporate uniform featuring a mock-neck full-zip jacket with diagonal chevron blocking and tapered athletic track pants with elasticized ankle cuffs.",
+    customization: "Heat-seal silicone logo transfers, embroidered club crests, custom zipper pullers."
+  },
+
+  // 3. Custom Mugs & Drinkware — with Indicative Bulk Corporate Pricing Guide
+  {
+    id: "prod-003",
+    categoryId: "mugs",
+    bulkPricing: MUG_BULK_PRICING,
+    name: "Employee Appreciation Mug & Gift Hamper Set",
+    image: "assets/WhatsApp Image 2026-09-02 at 3.01.46 PM (2).jpeg",
+    subtitle: "Custom Mug with Designer Gold Pattern Box & Keepsake",
+    description: "Signature corporate appreciation hamper featuring customized ceramic coffee mugs paired with luxury gold damask patterned gift boxes and personalized wooden keepsake cards.",
+    customization: "Client logo & employee appreciation graphics, custom gift wrap pattern, laser-engraved wooden message tag."
+  },
   {
     id: "prod-024",
     categoryId: "mugs",
+    bulkPricing: MUG_BULK_PRICING,
     name: "Inspirational Team Ceramic Coffee Mug",
     image: "assets/WhatsApp Image 2026-09-02 at 2.49.37 PM (1).jpeg",
     subtitle: "330ml Ceramic Mug with Sky Blue Rim & Handle",
@@ -307,6 +330,7 @@ const PRODUCTS = [
   {
     id: "prod-025",
     categoryId: "mugs",
+    bulkPricing: MUG_BULK_PRICING,
     name: "Corporate Appreciation Ceramic Mug (Piramal Edition)",
     image: "assets/WhatsApp Image 2026-09-02 at 2.49.37 PM (2).jpeg",
     subtitle: "Employee Recognition High-Gloss Mug",
@@ -316,6 +340,7 @@ const PRODUCTS = [
   {
     id: "prod-026",
     categoryId: "mugs",
+    bulkPricing: MUG_BULK_PRICING,
     name: "Employee Recognition Ceramic Mug (Spotify Edition)",
     image: "assets/WhatsApp Image 2026-09-02 at 2.49.37 PM.jpeg",
     subtitle: "Creative Corporate Culture Coffee Mug",
@@ -325,6 +350,7 @@ const PRODUCTS = [
   {
     id: "prod-027",
     categoryId: "mugs",
+    bulkPricing: MUG_BULK_PRICING,
     name: "Vintage White Enamel Campfire Mug (Mer C Signature)",
     image: "assets/WhatsApp Image 2026-09-02 at 2.49.38 PM (1).jpeg",
     subtitle: "Durable Steel Campfire Mug with Stainless Rim",
@@ -334,6 +360,7 @@ const PRODUCTS = [
   {
     id: "prod-028",
     categoryId: "mugs",
+    bulkPricing: MUG_BULK_PRICING,
     name: "Personalized Heart-Handle Monogram Mug",
     image: "assets/WhatsApp Image 2026-09-02 at 2.49.38 PM.jpeg",
     subtitle: "Ceramic Mug with Blue Rim & Sculpted Handle",
@@ -343,6 +370,7 @@ const PRODUCTS = [
   {
     id: "prod-029",
     categoryId: "mugs",
+    bulkPricing: MUG_BULK_PRICING,
     name: "Corporate Milestone Ceramic Mug (Accenture / TIAA)",
     image: "assets/WhatsApp Image 2026-09-02 at 3.06.53 PM (1).jpeg",
     subtitle: "Dual-Branded Enterprise Celebration Mug",
@@ -352,6 +380,7 @@ const PRODUCTS = [
   {
     id: "prod-030",
     categoryId: "mugs",
+    bulkPricing: MUG_BULK_PRICING,
     name: "Automatic Self-Stirring Glass Mug with Wooden Lid",
     image: "assets/WhatsApp Image 2026-09-10 at 12.41.05 AM.jpeg",
     subtitle: "400ml Borosilicate Glass with Wooden Handle",
@@ -361,6 +390,7 @@ const PRODUCTS = [
   {
     id: "prod-031",
     categoryId: "mugs",
+    bulkPricing: MUG_BULK_PRICING,
     name: "Insulated Matte Desk Tumbler with Flip-Lock Sip Lid",
     image: "assets/WhatsApp Image 2026-09-10 at 12.51.47 AM.jpeg",
     subtitle: "Double-Wall Stainless Steel Compact Tumbler",
@@ -369,7 +399,8 @@ const PRODUCTS = [
   },
   {
     id: "prod-032",
-    categoryId: "bottles",
+    categoryId: "mugs",
+    bulkPricing: MUG_BULK_PRICING,
     name: "Executive Thermal Desk Mug with Handle & Seal Lid",
     image: "assets/WhatsApp Image 2026-09-10 at 12.55.30 AM.jpeg",
     subtitle: "Modern Minimalist Insulated Office Mug",
@@ -416,6 +447,15 @@ const PRODUCTS = [
   },
 
   // 5. Diaries & Executive Notebooks
+  {
+    id: "prod-001",
+    categoryId: "diaries",
+    name: "Executive Conference Portfolio Organizer Set",
+    image: "assets/WhatsApp Image 2026-09-10 at 12.13.33 AM.jpeg",
+    subtitle: "Complete Desk Conference Gift Suite",
+    description: "A comprehensive executive portfolio kit featuring a refillable ruled notepad, dual wooden ballpoints, eco wooden ruler, eraser, sticky note flags, and business card slots neatly encased in a foldable faux leather folio.",
+    customization: "Laser debossed logo on folio exterior, custom printed notepad headers, branded pen engraving."
+  },
   {
     id: "prod-037",
     categoryId: "diaries",
@@ -558,13 +598,13 @@ const PRODUCTS = [
     customization: "Full custom logo embedding, client color tints, personalized team names."
   },
   {
-    id: "prod-052",
+    id: "prod-059",
     categoryId: "keychains-resin",
-    name: "Artisan Monogram Glitter Resin Charm Keychains",
-    image: "assets/WhatsApp Image 2026-09-02 at 3.01.46 PM.jpeg",
-    subtitle: "Two-Tone Resin Charms with Gold Flake Drift",
-    description: "Handcrafted resin initial charms featuring gradient pastel resin colors (sky blue, dusty rose, slate grey) merged with rich gold foil flakes and metallic hardware.",
-    customization: "Custom alphabet letters, company pantone color matching, presentation pouch."
+    name: "Bulk Resin Keychain & Presentation Gift Hamper",
+    image: "assets/WhatsApp Image 2026-09-02 at 3.01.46 PM (1).jpeg",
+    subtitle: "Corporate Event Golden Hamper & Favor Bags",
+    description: "Turnkey corporate giveaway presentation comprising dozens of individual organza gift bags containing customized gold leaf resin keychains with branded kraft gift boxes.",
+    customization: "Complete branding package, bespoke organza bag colors, custom greeting cards."
   },
   {
     id: "prod-053",
@@ -594,23 +634,23 @@ const PRODUCTS = [
     customization: "Bespoke corporate color border, custom engraved commemorative brass plaque."
   },
 
-  // 9. Handcrafted Luxury Candles
+  // 9. Candle Holders & Handcrafted Décor
   {
     id: "prod-056",
     categoryId: "candles",
-    name: "Geometric Concrete Tealight Candle Holder (Blush Pink)",
+    name: "Geometric Jesmonite Tealight Candle Holder (Blush Pink)",
     image: "assets/WhatsApp Image 2026-09-02 at 3.01.47 PM (2).jpeg",
-    subtitle: "Hand-Cast Faceted Concrete Candle Vessel",
-    description: "Architectural geometric faceted concrete tealight holder cast in soft blush pink with smooth matte sealer. Comes with a scented natural soy wax tealight.",
-    customization: "Custom pastel concrete tinting, debossed corporate initials, scented soy refills."
+    subtitle: "Hand-Cast Jesmonite / Architectural Vessel",
+    description: "Architectural geometric faceted Jesmonite & concrete tealight holder cast in soft blush pink with smooth matte sealer. Functions as an artisanal candle vessel or standalone geometric desk décor. Comes with a scented natural soy wax tealight.",
+    customization: "Custom pastel pigment tinting, debossed corporate initials, scented soy refills, matching gift packaging."
   },
   {
     id: "prod-057",
     categoryId: "candles",
-    name: "Handcrafted Ceramic Lotus Blossom Urli Candle",
+    name: "Handcrafted Ceramic Lotus Blossom Urli Vessel",
     image: "assets/WhatsApp Image 2026-09-02 at 3.01.47 PM (3).jpeg",
-    subtitle: "Marigold Yellow Glazed Lotus Tealight Urli",
-    description: "Traditional sculpted ceramic lotus petal candle holder finished with warm sunny yellow crackle glaze. Celebrated for festive Diwali corporate gifting and wellness events.",
+    subtitle: "Ceramic Candle Holder & Festive Décor Urli",
+    description: "Traditional sculpted ceramic lotus petal candle vessel finished with warm sunny yellow crackle glaze. Functions as a floating candle holder, potpourri basin, or festive Diwali décor centerpiece.",
     customization: "Custom glaze colors, festive gift hamper pairing, branded gift sleeves."
   },
   {
@@ -621,15 +661,6 @@ const PRODUCTS = [
     subtitle: "Transparent Ocean Gel with Seashells & Soy Wax",
     description: "Aromatherapy glassware candle featuring a transparent sea-green mineral gel bottom embedded with real miniature seashells and topped with frosted scented soy wax.",
     customization: "Custom aromatherapy fragrances (Ocean Breeze, Sandalwood, Lavender), custom branded glass print."
-  },
-  {
-    id: "prod-059",
-    categoryId: "gift-sets",
-    name: "Bulk Resin Keychain & Presentation Gift Hamper",
-    image: "assets/WhatsApp Image 2026-09-02 at 3.01.46 PM (1).jpeg",
-    subtitle: "Corporate Event Golden Hamper & Favor Bags",
-    description: "Turnkey corporate giveaway presentation comprising dozens of individual organza gift bags containing customized gold leaf resin keychains with branded kraft gift boxes.",
-    customization: "Complete branding package, bespoke organza bag colors, custom greeting cards."
   },
   {
     id: "prod-060",
@@ -680,6 +711,7 @@ const PRODUCTS = [
 
 // App State
 let currentCategory = "all";
+let currentApparelSubfilter = "all";
 let searchQuery = "";
 let modalActiveProductId = null;
 
@@ -701,7 +733,10 @@ function getGeneralWhatsAppUrl() {
 function getProductWhatsAppUrl(product) {
   const cat = getCategoryById(product.categoryId);
   const catName = cat ? cat.name : "Corporate Gifting";
-  const message = `Hello MerC APPERALS AND ACCESSORIES Team, I was browsing your catalogue and I am interested in the "${product.name}" under your ${catName} collection. Please share bulk pricing, branding options, and minimum order quantities.`;
+  let message = `Hello MerC APPERALS AND ACCESSORIES Team, I was browsing your catalogue and I am interested in the "${product.name}" under your ${catName} collection. Please share bulk pricing, branding options, and minimum order quantities.`;
+  if (product.bulkPricing) {
+    message = `Hello MerC APPERALS AND ACCESSORIES Team, I am interested in corporate bulk ordering for "${product.name}" (Indicative Volume: 1–9 @ ₹500, 10–50 @ ₹480, 50–200 @ ₹460). Please share logo mockups and quotation for our organization.`;
+  }
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
 
@@ -779,6 +814,47 @@ function renderCategoryPills() {
   });
 }
 
+// Render Apparel Subcategory Navigation (Active when Apparel is selected)
+function renderApparelSubfilters() {
+  const container = document.getElementById("apparelSubfilterContainer");
+  if (!container) return;
+
+  if (currentCategory !== "apparel") {
+    container.style.display = "none";
+    container.innerHTML = "";
+    currentApparelSubfilter = "all";
+    return;
+  }
+
+  container.style.display = "flex";
+  const apparelProducts = PRODUCTS.filter(p => p.categoryId === "apparel");
+  const roundNeckCount = apparelProducts.filter(p => p.apparelType === "round-neck").length;
+  const poloCount = apparelProducts.filter(p => p.apparelType === "polo").length;
+  const hoodiesCount = apparelProducts.filter(p => p.apparelType === "hoodies").length;
+
+  const subfilters = [
+    { id: "all", label: "All Apparel", count: apparelProducts.length },
+    { id: "round-neck", label: "Round Neck T-Shirts", count: roundNeckCount },
+    { id: "polo", label: "Polo Neck T-Shirts", count: poloCount },
+    { id: "hoodies", label: "Hoodies & Sweatshirts", count: hoodiesCount }
+  ];
+
+  container.innerHTML = subfilters.map(sub => `
+    <button class="apparel-subpill ${currentApparelSubfilter === sub.id ? 'active' : ''}" data-sub="${sub.id}">
+      <span>${sub.label}</span>
+      <span class="subpill-count">(${sub.count})</span>
+    </button>
+  `).join("");
+
+  container.querySelectorAll(".apparel-subpill").forEach(btn => {
+    btn.addEventListener("click", () => {
+      currentApparelSubfilter = btn.getAttribute("data-sub") || "all";
+      renderApparelSubfilters();
+      renderProductGrid();
+    });
+  });
+}
+
 // Render Dynamic Category Header and the Category-Level WhatsApp CTA Bar
 function renderCategoryHeader() {
   const bannerContainer = document.getElementById("catalogCategoryBanner");
@@ -846,6 +922,11 @@ function renderProductGrid() {
     list = list.filter(p => p.categoryId === currentCategory);
   }
 
+  // Filter by apparel subfilter if apparel is selected
+  if (currentCategory === "apparel" && currentApparelSubfilter !== "all") {
+    list = list.filter(p => p.apparelType === currentApparelSubfilter);
+  }
+
   // Filter by search query
   if (searchQuery.trim() !== "") {
     const q = searchQuery.toLowerCase().trim();
@@ -878,6 +959,7 @@ function renderProductGrid() {
     if (resetBtn) {
       resetBtn.addEventListener("click", () => {
         currentCategory = "all";
+        currentApparelSubfilter = "all";
         searchQuery = "";
         const searchInput = document.getElementById("catalogSearchInput");
         if (searchInput) searchInput.value = "";
@@ -906,6 +988,14 @@ function renderProductGrid() {
         <div class="product-content-box">
           <h3 class="product-item-title">${product.name}</h3>
           <p class="product-item-subtitle">${product.subtitle}</p>
+          ${product.bulkPricing ? `
+            <div class="card-bulk-pricing-strip">
+              <span class="bulk-strip-label">Indicative Bulk Guide:</span>
+              <div class="bulk-tier-chips">
+                ${product.bulkPricing.map(t => `<span class="tier-chip"><span class="chip-qty">${t.qty}:</span> <strong class="chip-price">${t.price}</strong></span>`).join("")}
+              </div>
+            </div>
+          ` : ''}
           <div class="product-card-bottom-row">
             <span class="product-view-btn">
               <span>View Details</span>
@@ -921,8 +1011,10 @@ function renderProductGrid() {
 // Select a Category
 function selectCategory(catId) {
   currentCategory = catId;
+  currentApparelSubfilter = "all";
   renderCategoryPills();
   renderCategoryHeader();
+  renderApparelSubfilters();
   renderProductGrid();
 }
 
@@ -930,6 +1022,7 @@ function selectCategory(catId) {
 function renderAllCatalogViews() {
   renderCategoryPills();
   renderCategoryHeader();
+  renderApparelSubfilters();
   renderProductGrid();
 }
 
@@ -949,6 +1042,7 @@ function openProductModal(productId) {
   const modalSubtitle = document.getElementById("modalProductSubtitle");
   const modalDesc = document.getElementById("modalProductDescription");
   const modalCustomization = document.getElementById("modalProductCustomization");
+  const modalBulkPricing = document.getElementById("modalProductBulkPricing");
   const modalWhatsAppBtn = document.getElementById("modalCategoryWhatsAppBtn");
   const modalCategoryPrompt = document.getElementById("modalCategoryPrompt");
 
@@ -961,6 +1055,39 @@ function openProductModal(productId) {
   if (modalSubtitle) modalSubtitle.textContent = product.subtitle;
   if (modalDesc) modalDesc.textContent = product.description;
   if (modalCustomization) modalCustomization.textContent = product.customization;
+
+  // Render or clear bulk volume pricing
+  if (modalBulkPricing) {
+    if (product.bulkPricing) {
+      modalBulkPricing.style.display = "block";
+      modalBulkPricing.innerHTML = `
+        <div class="modal-bulk-pricing-card">
+          <div class="pricing-card-header">
+            <div class="pricing-header-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <div>
+              <h4 class="pricing-card-title">Corporate Bulk Volume Guide</h4>
+              <p class="pricing-card-subtitle">Indicative tiered pricing for customized corporate orders:</p>
+            </div>
+          </div>
+          <div class="pricing-tiers-grid">
+            ${product.bulkPricing.map(tier => `
+              <div class="pricing-tier-box">
+                <span class="tier-qty">${tier.qty} units</span>
+                <span class="tier-price">${tier.price}</span>
+                <span class="tier-unit">${tier.unit}</span>
+              </div>
+            `).join("")}
+          </div>
+          <p class="pricing-card-note">*GST and customization branding applicable based on logo complexity & volume.</p>
+        </div>
+      `;
+    } else {
+      modalBulkPricing.style.display = "none";
+      modalBulkPricing.innerHTML = "";
+    }
+  }
 
   if (modalCategoryPrompt && cat) {
     modalCategoryPrompt.textContent = `Enquire about custom ${cat.shortName} and bulk corporate volume for your brand:`;
@@ -1086,6 +1213,15 @@ document.addEventListener("DOMContentLoaded", () => {
   const catParam = urlParams.get("category");
   if (catParam && CATEGORIES.some(c => c.id === catParam)) {
     selectCategory(catParam);
+    const scrollToCatalog = () => {
+      const catalogEl = document.getElementById("catalog");
+      if (catalogEl) {
+        window.scrollTo(0, catalogEl.offsetTop - 20);
+      }
+    };
+    scrollToCatalog();
+    window.addEventListener("load", scrollToCatalog);
+    setTimeout(scrollToCatalog, 150);
   }
 
   const prodParam = urlParams.get("product");
