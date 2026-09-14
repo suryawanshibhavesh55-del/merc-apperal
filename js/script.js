@@ -99,24 +99,17 @@ const CATEGORIES = [
   }
 ];
 
-// Indicative Corporate Bulk Pricing Guide for Mug Products
-const MUG_BULK_PRICING = [
-  { qty: "1–9", price: "₹500", unit: "/ unit" },
-  { qty: "10–50", price: "₹480", unit: "/ unit" },
-  { qty: "50–200", price: "₹460", unit: "/ unit" }
-];
-
 // Complete Catalog: Exactly 61 verified products from the project
 const PRODUCTS = [
   // 1. Corporate Gift Sets & Combos
   {
     id: "prod-002",
     categoryId: "gift-sets",
-    name: "Tri-Product Corporate Sports Welcome Kit",
+    name: "Sports Welcome Kit",
     image: "assets/WhatsApp Image 2026-09-02 at 2.49.40 PM.jpeg",
-    subtitle: "Insulated Bottle, Ceramic Mug & Coasters",
-    description: "High-impact new hire onboarding or athletic event kit including a stainless steel sports water bottle, dual ceramic team mugs, and matching high-density printed round coasters.",
-    customization: "Unified organizational emblem printing across all three complementary products."
+    subtitle: "Branded Sports Water Bottle, Ceramic Coffee Mug & Set of Coasters",
+    description: "A stylish and practical Sports Welcome Kit designed to create a memorable welcome experience. Featuring a branded bottle, ceramic mug, and matching coasters, this set combines everyday utility with a sporty, professional look—ideal for sports events, tournaments, corporate teams, clubs, and welcome hampers.\n\nIncludes:\n• Branded Sports Water Bottle\n• Ceramic Coffee Mug\n• Set of Branded Coasters\n\nPerfect for:\nSports Events • Team Welcome Kits • Corporate Gifting • Tournaments • Promotional Merchandise",
+    customization: "Logo & Branding: Add your company, team, event, or sponsor logo.\nBottle Customization: Personalized colours, names, numbers, slogans, and branding.\nCeramic Mug: Customize with logos, team colours, names, player numbers, or event artwork.\nCoasters: Fully branded with your logo, team identity, event theme, colours, or custom designs.\nComplete Set: Coordinate the bottle, mug, and coasters for a consistent branded look.\nBulk & Corporate Orders: Suitable for tournaments, sports clubs, corporate events, and welcome kits."
   },
 
   // 2. Custom Apparel & Sportswear — Ordered: Round Neck -> Polo Neck -> Hoodies & Sweatshirts
@@ -306,71 +299,55 @@ const PRODUCTS = [
     customization: "Heat-seal silicone logo transfers, embroidered club crests, custom zipper pullers."
   },
 
-  // 3. Custom Mugs & Drinkware — with Indicative Bulk Corporate Pricing Guide
-  {
-    id: "prod-003",
-    categoryId: "mugs",
-    bulkPricing: MUG_BULK_PRICING,
-    name: "Employee Appreciation Mug & Gift Hamper Set",
-    image: "assets/WhatsApp Image 2026-09-02 at 3.01.46 PM (2).jpeg",
-    subtitle: "Custom Mug with Designer Gold Pattern Box & Keepsake",
-    description: "Signature corporate appreciation hamper featuring customized ceramic coffee mugs paired with luxury gold damask patterned gift boxes and personalized wooden keepsake cards.",
-    customization: "Client logo & employee appreciation graphics, custom gift wrap pattern, laser-engraved wooden message tag."
-  },
+  // 3. Custom Mugs & Drinkware
   {
     id: "prod-024",
     categoryId: "mugs",
-    bulkPricing: MUG_BULK_PRICING,
-    name: "Inspirational Team Ceramic Coffee Mug",
+    name: "Ceramic Coffee Mug",
     image: "assets/WhatsApp Image 2026-09-02 at 2.49.37 PM (1).jpeg",
     subtitle: "330ml Ceramic Mug with Sky Blue Rim & Handle",
-    description: "Glossy white ceramic coffee mug with vibrant sky blue interior and matching ergonomic C-handle, printed with motivational team values for daily desk inspiration.",
-    customization: "Full 360-degree sublimation printing, custom team slogans, company logo placement."
+    description: "A classic and versatile Ceramic Coffee Mug designed for everyday office and home use. Its smooth finish and comfortable handle make it ideal for enjoying coffee, tea, and other beverages.",
+    customization: "Personalize with your company logo, brand colours, employee names, messages, or custom artwork—perfect for corporate gifting, employee appreciation, welcome kits, events, and promotional merchandise."
   },
   {
     id: "prod-025",
     categoryId: "mugs",
-    bulkPricing: MUG_BULK_PRICING,
     name: "Corporate Appreciation Ceramic Mug (Piramal Edition)",
     image: "assets/WhatsApp Image 2026-09-02 at 2.49.37 PM (2).jpeg",
     subtitle: "Employee Recognition High-Gloss Mug",
-    description: "Premium ceramic corporate award mug featuring vibrant watercolor typography and company brandmark, recognizing high-performing departments and team milestones.",
-    customization: "Custom typography, corporate logo print, individual team member name personalization."
+    description: "A classic and versatile Ceramic Coffee Mug designed for everyday office and home use. Its smooth finish and comfortable handle make it ideal for enjoying coffee, tea, and other beverages.",
+    customization: "Personalize with your company logo, brand colours, employee names, messages, or custom artwork—perfect for corporate gifting, employee appreciation, welcome kits, events, and promotional merchandise."
   },
   {
     id: "prod-026",
     categoryId: "mugs",
-    bulkPricing: MUG_BULK_PRICING,
     name: "Employee Recognition Ceramic Mug (Spotify Edition)",
     image: "assets/WhatsApp Image 2026-09-02 at 2.49.37 PM.jpeg",
     subtitle: "Creative Corporate Culture Coffee Mug",
-    description: "Crisp white ceramic mug celebrating workplace culture with musical note typography and clean client logo imprint. Designed for high employee retention and gifting.",
-    customization: "Full-color sublimation print, company branding, custom personalized messaging."
+    description: "A classic and versatile Ceramic Coffee Mug designed for everyday office and home use. Its smooth finish and comfortable handle make it ideal for enjoying coffee, tea, and other beverages.",
+    customization: "Personalize with your company logo, brand colours, employee names, messages, or custom artwork—perfect for corporate gifting, employee appreciation, welcome kits, events, and promotional merchandise."
   },
   {
     id: "prod-027",
     categoryId: "mugs",
-    bulkPricing: MUG_BULK_PRICING,
-    name: "Vintage White Enamel Campfire Mug (Mer C Signature)",
+    name: "Durable Finish Ceramic Coffee Mug",
     image: "assets/WhatsApp Image 2026-09-02 at 2.49.38 PM (1).jpeg",
-    subtitle: "Durable Steel Campfire Mug with Stainless Rim",
-    description: "Timeless rustic steel campfire mug finished with durable glossy white enamel glaze and stainless steel protective rim, branded with the signature Mer C emblem.",
-    customization: "Permanent screen printed or baked ceramic decal logo on one or both sides."
+    subtitle: "Smooth Durable Finish Office & Everyday Mug",
+    description: "A stylish and sturdy ceramic coffee mug crafted for everyday use. Featuring a smooth, durable finish, it is ideal for enjoying coffee, tea, and other beverages while adding a professional touch to any desk or workspace.",
+    customization: "Personalize with your company logo, name, brand colours, messages, or custom artwork—perfect for corporate gifting, employee welcome kits, events, and promotional merchandise."
   },
   {
     id: "prod-028",
     categoryId: "mugs",
-    bulkPricing: MUG_BULK_PRICING,
-    name: "Personalized Heart-Handle Monogram Mug",
+    name: "Personalized Heart-Handle Ceramic Mug",
     image: "assets/WhatsApp Image 2026-09-02 at 2.49.38 PM.jpeg",
     subtitle: "Ceramic Mug with Blue Rim & Sculpted Handle",
-    description: "Artistic ceramic mug with cobalt blue interior and heart-shaped handle, adorned with delicate floral wreath artwork and individual employee monogram initials.",
-    customization: "Custom floral alphabet monogramming, individual employee names, branded gift box."
+    description: "A charming heart-handle ceramic mug designed to add a personal touch to every coffee or tea break. Featuring an elegant floral design and customizable name or initials, it makes a thoughtful and stylish gift.",
+    customization: "Personalize with names, initials, messages, logos, photos, or custom artwork—perfect for birthdays, anniversaries, employee gifts, corporate gifting, and special occasions."
   },
   {
     id: "prod-029",
     categoryId: "mugs",
-    bulkPricing: MUG_BULK_PRICING,
     name: "Corporate Milestone Ceramic Mug (Accenture / TIAA)",
     image: "assets/WhatsApp Image 2026-09-02 at 3.06.53 PM (1).jpeg",
     subtitle: "Dual-Branded Enterprise Celebration Mug",
@@ -380,7 +357,6 @@ const PRODUCTS = [
   {
     id: "prod-030",
     categoryId: "mugs",
-    bulkPricing: MUG_BULK_PRICING,
     name: "Automatic Self-Stirring Glass Mug with Wooden Lid",
     image: "assets/WhatsApp Image 2026-09-10 at 12.41.05 AM.jpeg",
     subtitle: "400ml Borosilicate Glass with Wooden Handle",
@@ -390,7 +366,6 @@ const PRODUCTS = [
   {
     id: "prod-031",
     categoryId: "mugs",
-    bulkPricing: MUG_BULK_PRICING,
     name: "Insulated Matte Desk Tumbler with Flip-Lock Sip Lid",
     image: "assets/WhatsApp Image 2026-09-10 at 12.51.47 AM.jpeg",
     subtitle: "Double-Wall Stainless Steel Compact Tumbler",
@@ -400,12 +375,20 @@ const PRODUCTS = [
   {
     id: "prod-032",
     categoryId: "mugs",
-    bulkPricing: MUG_BULK_PRICING,
     name: "Executive Thermal Desk Mug with Handle & Seal Lid",
     image: "assets/WhatsApp Image 2026-09-10 at 12.55.30 AM.jpeg",
     subtitle: "Modern Minimalist Insulated Office Mug",
     description: "Sleek white insulated stainless steel office travel mug featuring an architectural ergonomic open handle, polished stainless rim, and snap-tight sealing lid.",
     customization: "Precision laser etching, screen printed logo, custom gift box with ribbon."
+  },
+  {
+    id: "prod-003",
+    categoryId: "mugs",
+    name: "Employee Appreciation Mug & Gift Hamper Set",
+    image: "assets/WhatsApp Image 2026-09-02 at 3.01.46 PM (2).jpeg",
+    subtitle: "Custom Mug with Designer Gold Pattern Box & Keepsake",
+    description: "Signature corporate appreciation hamper featuring customized ceramic coffee mugs paired with luxury gold damask patterned gift boxes and personalized wooden keepsake cards.",
+    customization: "Client logo & employee appreciation graphics, custom gift wrap pattern, laser-engraved wooden message tag."
   },
 
   // 4. Bottles & Vacuum Flasks
@@ -733,10 +716,7 @@ function getGeneralWhatsAppUrl() {
 function getProductWhatsAppUrl(product) {
   const cat = getCategoryById(product.categoryId);
   const catName = cat ? cat.name : "Corporate Gifting";
-  let message = `Hello MerC APPERALS AND ACCESSORIES Team, I was browsing your catalogue and I am interested in the "${product.name}" under your ${catName} collection. Please share bulk pricing, branding options, and minimum order quantities.`;
-  if (product.bulkPricing) {
-    message = `Hello MerC APPERALS AND ACCESSORIES Team, I am interested in corporate bulk ordering for "${product.name}" (Indicative Volume: 1–9 @ ₹500, 10–50 @ ₹480, 50–200 @ ₹460). Please share logo mockups and quotation for our organization.`;
-  }
+  const message = `Hello MerC APPERALS AND ACCESSORIES Team, I was browsing your catalogue and I am interested in the "${product.name}" under your ${catName} collection. Please share bulk pricing, branding options, and minimum order quantities.`;
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
 
@@ -897,7 +877,7 @@ function renderCategoryHeader() {
         <div class="category-banner-action">
           <div class="category-prompt-text">
             <span class="prompt-main">Interested in custom ${cat.shortName}?</span>
-            <span class="prompt-sub">Get bulk pricing, custom branding & direct consultation:</span>
+            <span class="prompt-sub">Enquire for custom pricing, branding & direct consultation:</span>
           </div>
           <a href="${getCategoryWhatsAppUrl(cat)}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
             <svg class="whatsapp-icon-mini" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.983.54 1.776.818 2.796.818 3.182 0 5.767-2.586 5.768-5.766 0-3.18-2.586-5.766-5.768-5.766zm9.969 5.766c0 5.518-4.482 10-10 10-1.748 0-3.385-.45-4.819-1.24L2 22l1.504-5.485C2.65 15.066 2.2 13.57 2.2 11.938c0-5.518 4.482-10 10-10s9.8 4.482 9.8 10z"/></svg>
@@ -988,14 +968,6 @@ function renderProductGrid() {
         <div class="product-content-box">
           <h3 class="product-item-title">${product.name}</h3>
           <p class="product-item-subtitle">${product.subtitle}</p>
-          ${product.bulkPricing ? `
-            <div class="card-bulk-pricing-strip">
-              <span class="bulk-strip-label">Indicative Bulk Guide:</span>
-              <div class="bulk-tier-chips">
-                ${product.bulkPricing.map(t => `<span class="tier-chip"><span class="chip-qty">${t.qty}:</span> <strong class="chip-price">${t.price}</strong></span>`).join("")}
-              </div>
-            </div>
-          ` : ''}
           <div class="product-card-bottom-row">
             <span class="product-view-btn">
               <span>View Details</span>
@@ -1056,37 +1028,10 @@ function openProductModal(productId) {
   if (modalDesc) modalDesc.textContent = product.description;
   if (modalCustomization) modalCustomization.textContent = product.customization;
 
-  // Render or clear bulk volume pricing
+  // Clear any bulk volume pricing
   if (modalBulkPricing) {
-    if (product.bulkPricing) {
-      modalBulkPricing.style.display = "block";
-      modalBulkPricing.innerHTML = `
-        <div class="modal-bulk-pricing-card">
-          <div class="pricing-card-header">
-            <div class="pricing-header-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-            </div>
-            <div>
-              <h4 class="pricing-card-title">Corporate Bulk Volume Guide</h4>
-              <p class="pricing-card-subtitle">Indicative tiered pricing for customized corporate orders:</p>
-            </div>
-          </div>
-          <div class="pricing-tiers-grid">
-            ${product.bulkPricing.map(tier => `
-              <div class="pricing-tier-box">
-                <span class="tier-qty">${tier.qty} units</span>
-                <span class="tier-price">${tier.price}</span>
-                <span class="tier-unit">${tier.unit}</span>
-              </div>
-            `).join("")}
-          </div>
-          <p class="pricing-card-note">*GST and customization branding applicable based on logo complexity & volume.</p>
-        </div>
-      `;
-    } else {
-      modalBulkPricing.style.display = "none";
-      modalBulkPricing.innerHTML = "";
-    }
+    modalBulkPricing.style.display = "none";
+    modalBulkPricing.innerHTML = "";
   }
 
   if (modalCategoryPrompt && cat) {

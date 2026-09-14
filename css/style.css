@@ -1735,6 +1735,7 @@ button, input {
   color: var(--slate-600);
   line-height: 1.6;
   margin-bottom: 20px;
+  white-space: pre-line;
 }
 
 .modal-branding-box {
@@ -1759,6 +1760,7 @@ button, input {
   font-size: 0.85rem;
   color: var(--slate-700);
   line-height: 1.45;
+  white-space: pre-line;
 }
 
 /* Indicative Bulk Corporate Pricing Card in Modal */
