@@ -1,4 +1,4 @@
-/**
+﻿/**
  * MerC APPERALS AND ACCESSORIES - Corporate Gifting Catalogue Engine
  * WhatsApp: +91 70454 93582 | Location: Navi Mumbai
  */
@@ -121,7 +121,7 @@ const PRODUCTS = [
     name: "Dual-Tone Raglan Corporate Event T-Shirt",
     image: "assets/WhatsApp Image 2026-09-02 at 3.01.44 PM (2).jpeg",
     subtitle: "Sky Blue & Navy Athletic Raglan Tee",
-    description: "Sporty raglan cut t-shirt featuring contrast sky blue sleeves and navy torso, engineered for company sports days, annual hackathons, and wellness retreats.",
+    description: "A stylish 180 GSM 100% cotton round-neck T-shirt featuring contrasting raglan sleeves for a sporty, modern look. Finished with durable screen printing, it is perfect for sports teams, corporate events, promotional campaigns, employee merchandise, and casual wear.\n\nKey Features:\n• 180 GSM premium cotton fabric\n• 100% cotton fabric\n• Contrast raglan sleeves\n• High-quality screen printing\n• Comfortable, breathable & durable",
     customization: "Multicolor front screen printing, sponsor sleeve badges, individual participant names."
   },
   {
@@ -131,7 +131,7 @@ const PRODUCTS = [
     name: "Milestone Commemorative Graphic Crewneck T-Shirt",
     image: "assets/WhatsApp Image 2026-09-02 at 3.01.44 PM.jpeg",
     subtitle: "Premium Bio-Washed Cotton Graphic Tee",
-    description: "Soft bio-washed 180 GSM cotton crewneck t-shirt celebrating organizational milestones, anniversaries, and company achievements with lasting graphic prints.",
+    description: "A premium 180 GSM 100% cotton round-neck T-shirt featuring vibrant, detailed DTF (Direct-to-Film) printing. The smooth cotton fabric offers excellent comfort and breathability, while DTF printing delivers sharp, long-lasting designs—perfect for corporate merchandise, promotional apparel, events, team wear, and customized T-shirts.\n\nKey Features:\n• 180 GSM premium cotton\n• 100% cotton fabric\n• Classic round-neck design\n• High-definition DTF printing\n• Vibrant & detailed prints\n• Comfortable, breathable & durable",
     customization: "Direct-to-film (DTF) high-definition multi-color printing, custom neck label printing."
   },
   {
@@ -141,7 +141,7 @@ const PRODUCTS = [
     name: "Sublimated Athletic Performance Jersey",
     image: "assets/WhatsApp Image 2026-09-02 at 3.01.45 PM (1).jpeg",
     subtitle: "All-Over Sublimation Quick-Dry Sports Tee",
-    description: "High-performance moisture-wicking honeycomb poly-mesh jersey with dynamic geometric wave graphics, contrast neck ribbing, and athletic raglan sleeves.",
+    description: "Lightweight and comfortable Dry-Fit Round Neck T-Shirt designed for activewear, sports teams, events and customized corporate apparel.\n\nKey Features:\n• 100% Polyester Dry-Fit Fabric\n• Round neck with raglan sleeves\n• Quick-dry & breathable\n• Comfortable & lightweight\n• High-quality digital printing\n• Custom branding & designs available\n• Ideal for sports teams, events, staff uniforms & promotions",
     customization: "Full 360-degree dye-sublimation, seamless team logo integration, numbered printing."
   },
   {
@@ -151,7 +151,7 @@ const PRODUCTS = [
     name: "Custom Graphic Crewneck T-Shirt (Royal Blue)",
     image: "assets/WhatsApp Image 2026-09-02 at 3.06.54 PM (1).jpeg",
     subtitle: "100% Ring-Spun Cotton Vibrant Daily Tee",
-    description: "Durable ring-spun cotton corporate casual t-shirt with seamless double-needle collar, taped neck and shoulders, and fade-resistant pigment dye.",
+    description: "A premium 180 GSM 100% cotton round-neck T-shirt designed for comfort, durability, and vibrant branding. Finished with high-quality screen printing, it is ideal for corporate events, promotional campaigns, sports teams, employee uniforms, and customized merchandise.\n\nKey Features:\n• 180 GSM premium cotton fabric\n• 100% cotton\n• Classic round-neck style\n• Durable screen printing\n• Soft, breathable & comfortable",
     customization: "High-density plastisol screen print, metallic foil accents, personalized internal size labels."
   },
   {
@@ -181,7 +181,7 @@ const PRODUCTS = [
     name: "Heritage Landmark Graphic Dry-Fit T-Shirt",
     image: "assets/WhatsApp Image 2026-09-02 at 3.06.55 PM.jpeg",
     subtitle: "Architectural Skyline Sublimation Tee",
-    description: "Special edition athletic t-shirt highlighting fine architectural line art of national monuments against an azure blue gradient with tricolor stripe detail.",
+    description: "Premium 100% Polyester Piqué Round-Neck T-Shirt with Raglan Sleeves, combining a sporty look with comfort and durability.\n\nKey Features:\n• 100% Polyester Piqué Fabric\n• Round-neck design\n• Stylish Raglan Sleeves\n• Comfortable & breathable\n• High-quality digital printing\n• Custom logos, colours & designs\n• Ideal for corporate uniforms, teams, events & promotional wear",
     customization: "Full sublimation with client's preferred city skyline or corporate campus architecture."
   },
   {
@@ -191,7 +191,7 @@ const PRODUCTS = [
     name: "Striped Sleeve Athletic Corporate T-Shirt",
     image: "assets/WhatsApp Image 2026-09-02 at 3.06.56 PM (2).jpeg",
     subtitle: "Navy Crewneck with Sporty Sleeve Bands",
-    description: "Sporty corporate casual crewneck t-shirt featuring stitched contrast sleeve stripes and centered typographic branding, tailored for offsite team building.",
+    description: "A comfortable and stylish 180 GSM 100% Cotton Round Neck T-Shirt, enhanced with high-quality DTF printing and reflective detailing on the sleeves. Ideal for corporate uniforms, promotional merchandise, events and casual teamwear.\n\nKey Features:\n• 180 GSM 100% cotton\n• Reflective strips on sleeves\n• Durable DTF print\n• Breathable and easy to maintain\n• Suitable for corporate, promotional and event wear",
     customization: "Front chest badge printing, contrast sleeve banding in customized pantone colors."
   },
 
@@ -203,7 +203,7 @@ const PRODUCTS = [
     name: "Premium Solid Pique Polo T-Shirt (Forest Olive)",
     image: "assets/WhatsApp Image 2026-09-02 at 3.01.43 PM.jpeg",
     subtitle: "100% Cotton Breathable Classic Fit",
-    description: "Minimalist executive everyday corporate polo crafted from pre-shrunk combed cotton pique fabric with ribbed collar, reinforced 3-button placket, and side vents.",
+    description: "A premium 220 GSM cotton-piqué polo T-shirt crafted with Lycra for added stretch, comfort, and shape retention. Designed with a smart polo collar and clean finish, it offers a polished look suitable for corporate uniforms, hospitality teams, promotional wear, events, and everyday professional styling.\n\nKey Features:\n• 220 GSM premium fabric\n• Cotton-piqué construction\n• Lycra for stretch and flexibility\n• Classic polo collar with button placket\n• Comfortable, breathable & durable\n• Smart, structured appearance",
     customization: "Subtle tone-on-tone chest embroidery or contrast direct-to-garment corporate logo."
   },
   {
@@ -223,7 +223,7 @@ const PRODUCTS = [
     name: "Dual-Tone Colorblocked Corporate Polo",
     image: "assets/WhatsApp Image 2026-09-02 at 3.06.54 PM (2).jpeg",
     subtitle: "Yellow & Navy Premium Pique Uniform Polo",
-    description: "Modern split color-block corporate uniform polo with sunshine yellow upper yoke and deep navy lower body, designed for high-visibility professional staff.",
+    description: "A premium 220 GSM 100% cotton piqué polo T-shirt designed for a smart and professional appearance. Its textured piqué fabric offers durability, breathability, and all-day comfort, making it an excellent choice for corporate uniforms, team wear, promotional apparel, events, and customized branding.\n\nKey Features:\n• 220 GSM premium fabric\n• 100% cotton piqué\n• Classic polo collar with button placket\n• Comfortable, breathable & durable\n• Durable and structured finish\n• Ideal for corporate and promotional wear",
     customization: "Chest embroidery, company badge appliquée, branded buttons."
   },
   {
@@ -233,7 +233,7 @@ const PRODUCTS = [
     name: "Tricolor Vertical Stripe Corporate Staff Polo",
     image: "assets/WhatsApp Image 2026-09-02 at 3.06.54 PM (3).jpeg",
     subtitle: "Navy Pique Polo with Engineered Vertical Ribbon",
-    description: "Dignified corporate polo shirt in rich midnight navy with vertical tricolor chest ribbon, crisp white collar, and embroidered institutional insignia.",
+    description: "A premium 220 GSM 100% cotton piqué polo T-shirt designed for a smart, professional look. Featuring a classic polo collar and custom embroidery detailing, it combines durability, comfort, and refined branding—ideal for corporate uniforms, hospitality teams, events, sports clubs, and promotional apparel.\n\nKey Features:\n• 220 GSM premium fabric\n• 100% cotton piqué fabric\n• Classic polo collar with button placket\n• High-quality custom embroidery\n• Comfortable, breathable & durable\n• Premium professional appearance",
     customization: "Direct institutional embroidery, bespoke color stripes matching brand identity."
   },
   {
@@ -243,7 +243,7 @@ const PRODUCTS = [
     name: "Classic Pique Corporate Staff Polo (DW Badge)",
     image: "assets/WhatsApp Image 2026-09-02 at 3.06.56 PM.jpeg",
     subtitle: "Pristine White Pique Knit Everyday Uniform",
-    description: "Standard executive staff polo t-shirt in crisp optic white, featuring reinforced collar points, 3-button front placket, and embroidered corporate chest emblem.",
+    description: "A smart and durable 220 GSM cotton-blend piqué polo T-shirt, crafted with 60% cotton and 40% polyester for a comfortable feel, strength, and easy maintenance. Finished with high-quality screen printing, it is ideal for corporate uniforms, promotional apparel, events, team wear, and customized branding.\n\nKey Features:\n• 220 GSM premium fabric\n• 60% cotton + 40% polyester\n• Textured piqué weave\n• Classic polo collar with button placket\n• Durable screen printing\n• Comfortable, breathable & durable\n• Smart professional appearance",
     customization: "Precision chest badge embroidery, corporate logo printing, collar trim customization."
   },
   {
@@ -253,7 +253,7 @@ const PRODUCTS = [
     name: "Women's Engineered Dry-Fit Polo T-Shirt",
     image: "assets/WhatsApp Image 2026-09-02 at 3.09.53 PM.jpeg",
     subtitle: "Contoured Fit Quick-Dry Athletic Polo",
-    description: "Tailored athletic polo t-shirt for women, cut from quick-drying poly-spandex mesh with open V-placket, side venting panels, and vibrant vertical racing stripes.",
+    description: "Premium 100% Polyester Piqué Polo T-Shirts with high-quality digital printing, combining a smart professional look with comfort and durability.\n\nKey Features:\n• 100% Polyester Piqué Fabric\n• Durable and easy to maintain\n• High-quality digital printing\n• Custom logos, designs & branding\n• Ideal for corporate uniforms, events & team wear",
     customization: "Sublimated side panels, heat transfer team logos, custom collar color combinations."
   },
   {
@@ -263,7 +263,7 @@ const PRODUCTS = [
     name: "Executive Corporate Polo T-Shirt (Contrast Collar)",
     image: "assets/WhatsApp Image 2026-09-02 at 3.01.42 PM.jpeg",
     subtitle: "White Pique Knit with Vibrant Accent Trim",
-    description: "Premium combed cotton pique corporate polo featuring bright accent collar and sleeve tipping, vertical company typography on the placket line, and embroidered chest crest.",
+    description: "Premium 100% Polyester Piqué Polo T-Shirt featuring contrast collar and sleeve detailing with customized digital printing.\n\nKey Features:\n• 100% Polyester Piqué Fabric\n• Classic polo collar\n• Contrast collar, cuffs & hem\n• High-quality digital printing\n• Custom front & back branding\n• Smart, sporty & professional look\n• Ideal for corporate uniforms, teams, events & promotional wear",
     customization: "Screen printing, high-density embroidery, custom dyed collar tipping to match brand hex codes."
   },
 
@@ -275,7 +275,7 @@ const PRODUCTS = [
     name: "Corporate Colorblock Hooded Sweatshirt",
     image: "assets/WhatsApp Image 2026-09-02 at 3.01.44 PM (1).jpeg",
     subtitle: "Tricolor Paneled Heavyweight Fleece Hoodie",
-    description: "Contemporary tri-panel fleece hoodie with kangaroo pocket, adjustable drawstring hood, ribbed cuffs and hem, tailored for team offsites and corporate retreats.",
+    description: "A premium 320 GSM 100% cotton fleece hoodie designed for warmth, comfort, and everyday style. Crafted from soft, heavyweight fleece and finished with custom embroidery, it offers a premium look and feel—perfect for corporate merchandise, team wear, promotional campaigns, events, and customized apparel.\n\nKey Features:\n• 320 GSM heavyweight fabric\n• 100% cotton fleece\n• Comfortable hood with drawstrings\n• Kangaroo front pocket\n• Premium embroidery detailing\n• Warm, soft & comfortable",
     customization: "Embroidered chest logo patch, screen printed back graphics, custom woven drawstring pullers."
   },
   {
@@ -285,7 +285,7 @@ const PRODUCTS = [
     name: "Heavyweight Crewneck Fleece Sweatshirt",
     image: "assets/WhatsApp Image 2026-09-02 at 3.06.56 PM (1).jpeg",
     subtitle: "320 GSM Brushed Fleece Winter Uniform",
-    description: "Cozy brushed fleece corporate crewneck sweatshirt with ribbed collar, hem, and storm cuffs. Ideal for winter corporate gifting and chilly office workspaces.",
+    description: "A premium 320 GSM 100% cotton brushed fleece sweatshirt designed for superior warmth, softness, and comfort. Featuring a classic round-neck silhouette and premium vinyl printing, it delivers a clean, bold finish—perfect for corporate merchandise, team apparel, promotional campaigns, events, and customized clothing.\n\nKey Features:\n• 320 GSM heavyweight fabric\n• 100% cotton brushed fleece\n• Soft & warm inner finish\n• Classic round-neck sweatshirt\n• High-grade vinyl print\n• Durable and premium print finish\n• Ribbed cuffs and hem",
     customization: "Diagonal slash typography print, chenille embroidery patch, laser-engraved leather hem tag."
   },
   {
@@ -295,7 +295,7 @@ const PRODUCTS = [
     name: "Executive Performance Corporate Tracksuit Set",
     image: "assets/WhatsApp Image 2026-09-02 at 3.01.45 PM (2).jpeg",
     subtitle: "Full-Zip Track Jacket & Matching Joggers",
-    description: "Two-piece active corporate uniform featuring a mock-neck full-zip jacket with diagonal chevron blocking and tapered athletic track pants with elasticized ankle cuffs.",
+    description: "A stylish and comfortable 100% Polyester Tracksuit designed for sports, training, team uniforms and activewear.\n\nKey Features:\n• 100% Polyester Fabric\n• Lightweight & comfortable\n• Full-sleeve zip-up jacket\n• Matching track pant\n• Breathable and easy to maintain\n• Custom colours, logos & digital printing available\n• Ideal for sports teams, schools, corporate events & promotional wear",
     customization: "Heat-seal silicone logo transfers, embroidered club crests, custom zipper pullers."
   },
 
