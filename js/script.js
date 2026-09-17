@@ -1,4 +1,4 @@
-﻿/**
+/**
  * MerC APPERALS AND ACCESSORIES - Corporate Gifting Catalogue Engine
  * WhatsApp: +91 70454 93582 | Location: Navi Mumbai
  */
@@ -194,6 +194,26 @@ const PRODUCTS = [
     description: "A comfortable and stylish 180 GSM 100% Cotton Round Neck T-Shirt, enhanced with high-quality DTF printing and reflective detailing on the sleeves. Ideal for corporate uniforms, promotional merchandise, events and casual teamwear.\n\nKey Features:\n• 180 GSM 100% cotton\n• Reflective strips on sleeves\n• Durable DTF print\n• Breathable and easy to maintain\n• Suitable for corporate, promotional and event wear",
     customization: "Front chest badge printing, contrast sleeve banding in customized pantone colors."
   },
+  {
+    id: "prod-067",
+    categoryId: "apparel",
+    apparelType: "round-neck",
+    name: "Premium Cotton Screen Print Round Neck T-Shirt",
+    image: "assets/apparel-screen-print-tshirt-black-g.png",
+    subtitle: "180 GSM | 100% Cotton | Round Neck | Screen Printing",
+    description: "A premium 180 GSM 100% cotton round-neck T-shirt designed for comfort, durability, and vibrant branding. Finished with high-quality screen printing, it is ideal for corporate events, promotional campaigns, sports teams, employee uniforms, and customized merchandise.\n\nKey Features:\n• 180 GSM premium cotton fabric\n• 100% cotton\n• Classic round-neck style\n• Durable screen printing\n• Soft, breathable & comfortable",
+    customization: "Durable multi-color screen printing, client logo integration, custom corporate sleeve branding."
+  },
+  {
+    id: "prod-069",
+    categoryId: "apparel",
+    apparelType: "round-neck",
+    name: "Premium Custom Polyester Jersey",
+    image: "assets/apparel-custom-polyester-jersey-cavallibet.png",
+    subtitle: "100% Polyester | Digital Printing | Vinyl Logo",
+    description: "A premium 100% polyester jersey featuring vibrant all-over digital printing for detailed, eye-catching designs. Finished with a custom vinyl logo, this jersey is ideal for sports teams, corporate events, promotional campaigns, employee merchandise, and customized team apparel.\n\nKey Features:\n• 100% polyester fabric\n• Full digital printing\n• Custom vinyl logo application\n• Lightweight & comfortable\n• Vibrant, detailed graphics\n• Sporty and professional finish",
+    customization: "All-over digital printing, heat-pressed vinyl team crest, individual player names & numbers."
+  },
 
   // B. Polo Neck T-Shirts
   {
@@ -297,6 +317,36 @@ const PRODUCTS = [
     subtitle: "Full-Zip Track Jacket & Matching Joggers",
     description: "A stylish and comfortable 100% Polyester Tracksuit designed for sports, training, team uniforms and activewear.\n\nKey Features:\n• 100% Polyester Fabric\n• Lightweight & comfortable\n• Full-sleeve zip-up jacket\n• Matching track pant\n• Breathable and easy to maintain\n• Custom colours, logos & digital printing available\n• Ideal for sports teams, schools, corporate events & promotional wear",
     customization: "Heat-seal silicone logo transfers, embroidered club crests, custom zipper pullers."
+  },
+  {
+    id: "prod-065",
+    categoryId: "apparel",
+    apparelType: "hoodies",
+    name: "Premium Cotton Fleece DTF Printed Hoodie",
+    image: "assets/apparel-fleece-dtf-hoodie-mountain.png",
+    subtitle: "340 GSM | 100% Cotton | Fleece Fabric | DTF Printing | Front & Back Print",
+    description: "A premium 340 GSM 100% cotton fleece hoodie designed for warmth, comfort, and standout branding. Featuring vibrant DTF printing on both the front and back, it delivers sharp, detailed designs with a premium finish. Perfect for corporate merchandise, team apparel, promotional campaigns, events, college wear, and customized fashion collections.\n\nKey Features:\n• 340 GSM heavyweight fabric\n• 100% cotton fleece\n• Soft, warm & comfortable\n• Front & back DTF printing\n• Vibrant and detailed prints\n• Hood with adjustable drawstrings\n• Kangaroo front pocket\n• Ribbed cuffs and hem",
+    customization: "Front & back DTF printing, custom logos, team branding, vibrant pantone color matching."
+  },
+  {
+    id: "prod-066",
+    categoryId: "apparel",
+    apparelType: "hoodies",
+    name: "Premium Brushed Fleece Vinyl Print Sweatshirt",
+    image: "assets/apparel-brushed-fleece-sweatshirt-rifle.png",
+    subtitle: "320 GSM | 100% Cotton | Brushed Fleece | Round Neck | Vinyl Printing",
+    description: "A premium 320 GSM 100% cotton brushed fleece sweatshirt designed for superior warmth, softness, and comfort. Featuring a classic round-neck silhouette and premium vinyl printing, it delivers a clean, bold finish—perfect for corporate merchandise, team apparel, promotional campaigns, events, and customized clothing.\n\nKey Features:\n• 320 GSM heavyweight fabric\n• 100% cotton brushed fleece\n• Soft & warm inner finish\n• Classic round-neck sweatshirt\n• High-quality vinyl printing\n• Durable and premium print finish\n• Ribbed cuffs and hem",
+    customization: "High-quality vinyl printing, personalized graphics, corporate team logos, custom sizing."
+  },
+  {
+    id: "prod-068",
+    categoryId: "apparel",
+    apparelType: "hoodies",
+    name: "Premium Cotton Brushed Fleece DTF Hoodie",
+    image: "assets/apparel-brushed-fleece-dtf-hoodie-5000.png",
+    subtitle: "340 GSM | 100% Cotton | Brushed Fleece | Hooded | DTF Printing",
+    description: "A premium 340 GSM 100% cotton brushed fleece hoodie designed for superior warmth, comfort, and durability. The soft brushed fleece construction provides a cozy feel, while high-quality DTF printing delivers vibrant, sharp, and detailed designs. Ideal for corporate merchandise, team wear, promotional campaigns, events, college wear, and customized apparel.\n\nKey Features:\n• 340 GSM heavyweight fabric\n• 100% cotton brushed fleece\n• Soft & warm inner finish\n• Premium DTF printing\n• Vibrant and detailed prints\n• Adjustable hood with drawstrings\n• Kangaroo front pocket\n• Ribbed cuffs and hem",
+    customization: "High-definition DTF printing, custom chest & back artwork, custom drawstring tips."
   },
 
   // 3. Custom Mugs & Drinkware
