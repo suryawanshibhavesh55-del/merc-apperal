@@ -333,8 +333,8 @@ const PRODUCTS = [
     name: "Durable Finish Ceramic Coffee Mug",
     image: "assets/WhatsApp Image 2026-09-02 at 2.49.38 PM (1).jpeg",
     subtitle: "Smooth Durable Finish Office & Everyday Mug",
-    description: "A stylish and sturdy ceramic coffee mug crafted for everyday use. Featuring a smooth, durable finish, it is ideal for enjoying coffee, tea, and other beverages while adding a professional touch to any desk or workspace.",
-    customization: "Personalize with your company logo, name, brand colours, messages, or custom artwork—perfect for corporate gifting, employee welcome kits, events, and promotional merchandise."
+    description: "A stylish and lightweight Enamel Mug with a classic, durable design, perfect for everyday use at home, in the office, or outdoors. Its timeless look makes it a versatile choice for both personal and corporate gifting.",
+    customization: "Personalize with your company logo, brand name, team identity, names, messages, or custom artwork—ideal for corporate gifting, events, promotional merchandise, and welcome kits."
   },
   {
     id: "prod-028",
@@ -360,8 +360,8 @@ const PRODUCTS = [
     name: "Automatic Self-Stirring Glass Mug with Wooden Lid",
     image: "assets/WhatsApp Image 2026-09-10 at 12.41.05 AM.jpeg",
     subtitle: "400ml Borosilicate Glass with Wooden Handle",
-    description: "Next-generation smart office mug crafted from high borosilicate glass with volumetric measurement markings, natural wood handle, matching wooden lid with touch stir button, and engraved coaster.",
-    customization: "Laser engraved logo on wooden lid and coaster, glass surface screen printing."
+    description: "Experience effortless mixing with our Smart Self-Stirring Coffee Mug. Designed with an automatic stirring mechanism, this innovative mug blends coffee, tea, milk, chocolate, and other beverages with just a touch of a button.\n\nThe 400ml glass mug features a stylish wooden-look lid and handle, making it a practical and elegant addition to any office desk or home.\n\nKey Features:\n• 400ml capacity\n• Automatic self-stirring function\n• Rechargeable design\n• Transparent glass body\n• Secure lid to help prevent spills\n• Ideal for coffee, tea, milk & hot beverages\n• Stylish and modern design",
+    customization: "Add your company logo, brand identity, name, or custom artwork for a premium corporate gifting or promotional experience."
   },
   {
     id: "prod-031",
@@ -369,8 +369,8 @@ const PRODUCTS = [
     name: "Insulated Matte Desk Tumbler with Flip-Lock Sip Lid",
     image: "assets/WhatsApp Image 2026-09-10 at 12.51.47 AM.jpeg",
     subtitle: "Double-Wall Stainless Steel Compact Tumbler",
-    description: "Compact 300ml modern desk coffee tumbler with eggshell matte white powder coating, transparent splash-proof lid with ergonomic flip clip, and thermal heat retention.",
-    customization: "Laser engraving through powder coat, spot UV logo, bespoke color packaging."
+    description: "A sleek and practical insulated coffee tumbler designed for everyday use at the office, home, or on the go. Its double-wall insulation helps maintain beverage temperature, while the transparent lid with a convenient straw opening offers added ease of use.",
+    customization: "Personalize with your company logo, brand colours, names, messages, or custom artwork—perfect for corporate gifting, employee welcome kits, events, and promotional merchandise."
   },
   {
     id: "prod-032",
@@ -378,8 +378,8 @@ const PRODUCTS = [
     name: "Executive Thermal Desk Mug with Handle & Seal Lid",
     image: "assets/WhatsApp Image 2026-09-10 at 12.55.30 AM.jpeg",
     subtitle: "Modern Minimalist Insulated Office Mug",
-    description: "Sleek white insulated stainless steel office travel mug featuring an architectural ergonomic open handle, polished stainless rim, and snap-tight sealing lid.",
-    customization: "Precision laser etching, screen printed logo, custom gift box with ribbon."
+    description: "A sleek and practical insulated travel mug designed to keep your beverages at the right temperature while you work, travel, or relax. With a comfortable ergonomic handle, secure lid, and modern finish, it’s perfect for everyday use.",
+    customization: "Personalize with your company logo, brand colours, name, employee details, or custom artwork—an excellent choice for corporate gifting, employee welcome kits, events, and promotional merchandise."
   },
   {
     id: "prod-003",
@@ -398,8 +398,8 @@ const PRODUCTS = [
     name: "Floral Monogram Skinny Vacuum Tumbler",
     image: "assets/WhatsApp Image 2026-09-02 at 2.49.39 PM (1).jpeg",
     subtitle: "Double-Wall Stainless Steel Slim Tumbler",
-    description: "Elegant slim profile stainless steel vacuum flask with clear push-in lid, keeping beverages iced or hot for 12+ hours. Styled with custom floral initial monogramming.",
-    customization: "360-degree seamless print, custom client colorway, personalized name stamping."
+    description: "A sleek and elegant slim stainless steel bottle designed for everyday hydration with a stylish, modern look. Its streamlined shape makes it easy to carry, while the personalized floral and name design adds a unique touch.",
+    customization: "Personalize with names, initials, logos, brand colours, messages, or custom artwork—perfect for corporate gifting, employee welcome kits, celebrations, and promotional merchandise."
   },
   {
     id: "prod-034",
@@ -407,8 +407,8 @@ const PRODUCTS = [
     name: "Insulated Stainless Steel Cola Flask (Mer C Signature)",
     image: "assets/WhatsApp Image 2026-09-02 at 2.49.39 PM (2).jpeg",
     subtitle: "750ml Ergonomic Vacuum Insulated Flask",
-    description: "Ergonomic cola-shaped stainless steel vacuum flask with threaded steel leak-proof cap. Vacuum insulation keeps water chilled for 24 hours or piping hot for 12 hours.",
-    customization: "Vertical laser engraving, screen printed corporate logo, matte or metallic finish."
+    description: "A sleek and durable stainless steel vacuum bottle designed to keep beverages hot or cold for longer. Its elegant shape, secure screw lid, and premium finish make it ideal for everyday use at the office, while travelling, or on the go.",
+    customization: "Personalize with your company logo, brand name, employee names, team identity, or custom artwork for corporate gifting, employee welcome kits, sports events, conferences, and promotional merchandise."
   },
   {
     id: "prod-035",
@@ -416,8 +416,8 @@ const PRODUCTS = [
     name: "Active Sports Water Bottle with Carabiner Loop",
     image: "assets/WhatsApp Image 2026-09-02 at 2.49.39 PM.jpeg",
     subtitle: "Single-Wall Lightweight Aluminum Sports Bottle",
-    description: "Durable, lightweight single-wall aluminum bottle with leak-proof screw cap and quick-release metal carabiner clip. Ideal for marathon kits, cycling events, and gym perks.",
-    customization: "Rotary screen printing, UV printing, branded carabiner attachment."
+    description: "A sleek and lightweight sports water bottle designed for everyday hydration at the gym, office, sports events, or while travelling. Featuring a convenient carry loop and secure cap, it is easy to carry and ideal for an active lifestyle.",
+    customization: "Personalize with your company logo, team branding, names, numbers, colours, or custom artwork—perfect for sports events, tournaments, corporate gifting, employee welcome kits, and promotional merchandise."
   },
   {
     id: "prod-036",
@@ -425,8 +425,8 @@ const PRODUCTS = [
     name: "Matte Black Sports Vacuum Flask (Neeraj Chopra Edition)",
     image: "assets/WhatsApp Image 2026-09-02 at 3.01.45 PM (3).jpeg",
     subtitle: "Premium Matte Powder-Coated Thermal Bottle",
-    description: "Sleek stealth black vacuum insulated steel flask featuring a textured powder coat grip, commemorative event graphics, and double-wall temperature lock technology.",
-    customization: "Precision fiber laser marking revealing stainless steel underneath, custom graphics."
+    description: "A sleek and durable sports insulated bottle designed for athletes, fitness enthusiasts, and active lifestyles. Its premium matte finish and convenient screw-top design make it ideal for the gym, training sessions, sports events, travel, and everyday hydration.",
+    customization: "Personalize with team logos, player names, numbers, event branding, sponsor logos, or custom artwork—perfect for sports tournaments, corporate events, fitness clubs, team welcome kits, and promotional merchandise."
   },
 
   // 5. Diaries & Executive Notebooks
@@ -436,8 +436,8 @@ const PRODUCTS = [
     name: "Executive Conference Portfolio Organizer Set",
     image: "assets/WhatsApp Image 2026-09-10 at 12.13.33 AM.jpeg",
     subtitle: "Complete Desk Conference Gift Suite",
-    description: "A comprehensive executive portfolio kit featuring a refillable ruled notepad, dual wooden ballpoints, eco wooden ruler, eraser, sticky note flags, and business card slots neatly encased in a foldable faux leather folio.",
-    customization: "Laser debossed logo on folio exterior, custom printed notepad headers, branded pen engraving."
+    description: "A sophisticated all-in-one executive writing kit designed to keep your everyday essentials organized. Featuring a sleek organizer with a writing pad, ruler, pens, pencils, eraser, sharpener, sticky notes, and page markers, it is ideal for meetings, planning, note-taking, and office use.",
+    customization: "Personalize the kit with your company logo, brand name, colours, employee names, or custom artwork—perfect for corporate gifting, employee welcome kits, conferences, seminars, training programs, and promotional events."
   },
   {
     id: "prod-037",
@@ -445,8 +445,8 @@ const PRODUCTS = [
     name: "Premium Tan Leatherette Magnetic Clasp Notebook",
     image: "assets/WhatsApp Image 2026-09-09 at 11.45.42 PM.jpeg",
     subtitle: "A5 Hardbound Executive Ruled Journal",
-    description: "Refined saddle-brown PU leatherette journal with perimeter saddle-stitching, metallic azure blue magnetic closure clasp, ribbon bookmark, and 192 bleed-resistant ivory pages.",
-    customization: "Blind debossing on leather cover, laser engraved logo on magnetic metal tab, custom tip-in company profile pages."
+    description: "A sophisticated leatherette executive diary designed for professionals, meetings, planning, and everyday note-taking. Featuring a smooth finish, elegant stitching, a secure strap closure, and a convenient metal branding plate, it combines functionality with a premium executive look.",
+    customization: "Personalize with your company logo, brand name, employee names, initials, or custom engraving—ideal for corporate gifting, conferences, business events, and promotional merchandise."
   },
   {
     id: "prod-038",
@@ -454,8 +454,8 @@ const PRODUCTS = [
     name: "Executive Black Suede Organizer Diary with Loop Closure",
     image: "assets/WhatsApp Image 2026-09-09 at 11.48.25 PM.jpeg",
     subtitle: "Soft-Touch Suede Matte Black Corporate Planner",
-    description: "Ultra-luxurious soft-touch suede finish corporate organizer diary with integrated wrap-around loop strap closure, pen holder slot, and undated daily productivity planning layout.",
-    customization: "Foil stamping in silver, gold or rose gold, metallic deboss, custom branded packaging."
+    description: "A sophisticated suede-finish executive diary designed for professionals who value style and functionality. Its soft-touch cover, clean design, and secure strap closure give it a refined look, making it ideal for meetings, planning, note-taking, and everyday office use.",
+    customization: "Personalize with your company logo, brand name, employee names, initials, or custom artwork—perfect for corporate gifting, employee welcome kits, conferences, and business events."
   },
 
   // 6. Executive Metal Pens
@@ -465,8 +465,8 @@ const PRODUCTS = [
     name: "Luxury Brushed Gold Metal Ballpoint Pen",
     image: "assets/WhatsApp Image 2026-09-09 at 11.57.05 PM (1).jpeg",
     subtitle: "Satin Gold Finish with High-Precision German Refill",
-    description: "Statement corporate pen featuring solid brass body finished in satin brushed gold with polished mirror-gold accents, smooth twist mechanism, and German document-proof ink.",
-    customization: "Tone-on-tone laser engraving, individual recipient name engraving, luxury velvet pen pouch."
+    description: "A sleek and elegant metal ball pen designed for smooth writing and everyday professional use. With its refined finish, stylish detailing, and comfortable grip, it makes a practical addition to any desk or stationery collection.",
+    customization: "Personalize with your company logo, brand name, perfect for corporate gifting, conferences, employee welcome kits, promotional merchandise, and business events."
   },
   {
     id: "prod-040",
@@ -474,8 +474,8 @@ const PRODUCTS = [
     name: "Matte Stealth Black Metal Ballpoint Pen",
     image: "assets/WhatsApp Image 2026-09-09 at 11.57.05 PM (2).jpeg",
     subtitle: "Full Matte Black Monochromatic Executive Pen",
-    description: "Contemporary minimalist metal ballpoint pen engineered in full matte black anodized aluminum with matching contoured pocket clip and weighted balanced feel.",
-    customization: "Silver or brass fiber laser etching revealing metallic core, pad printing."
+    description: "A sleek and reliable Executive Click Ball Pen designed for smooth writing and everyday professional use. Its minimalist black finish, comfortable grip, and convenient click mechanism make it a practical addition to any office or stationery collection.",
+    customization: "Personalize with your company logo, brand name ideal for corporate gifting, conferences, employee welcome kits, promotional merchandise, and business events."
   },
   {
     id: "prod-041",
@@ -483,8 +483,8 @@ const PRODUCTS = [
     name: "Classic Black Lacquer & Gold Trim Rollerball Pen",
     image: "assets/WhatsApp Image 2026-09-09 at 11.57.05 PM.jpeg",
     subtitle: "High-Gloss Piano Lacquer Executive Rollerball",
-    description: "Distinguished executive writing instrument with high-gloss multi-layer black lacquer barrel, 24K-gold electroplated center ring and pocket clip, with ceramic ball refill.",
-    customization: "Gold foil filled laser engraving, custom corporate logo on clip or barrel."
+    description: "A sophisticated premium executive pen featuring a glossy black finish with elegant gold-tone accents. Designed to make a statement, it offers a refined writing experience and a luxurious look—perfect for professionals, executives, and premium gifting.",
+    customization: "Personalize with your company logo, brand name, ideal for corporate gifting, executive gifts, conferences, VIP events, and premium welcome kits."
   },
   {
     id: "prod-042",
@@ -492,8 +492,8 @@ const PRODUCTS = [
     name: "Matte Black & Brushed Brass Executive Pen",
     image: "assets/WhatsApp Image 2026-09-10 at 12.02.20 AM (1).jpeg",
     subtitle: "Two-Tone Architectural Executive Writing Pen",
-    description: "Sleek tapered silhouette combining matte velvet black barrel coating with brushed champagne brass central band and clip. Smooth twist mechanism for daily executive use.",
-    customization: "Fine laser marking on clip or upper cap, custom single or dual gift box."
+    description: "A sophisticated 2-in-1 Stylus Metal Pen that combines smooth writing with effortless touchscreen navigation. Featuring a premium matte finish, elegant metal accents, and a responsive stylus tip, it is perfect for modern professionals who work across both paper and digital devices.\n\nKey Features:\n• Smooth ballpoint writing experience\n• Built-in touchscreen stylus tip\n• Premium metal construction\n• Comfortable grip and balanced design\n• Compatible with smartphones, tablets, and touchscreens\n• Elegant executive look",
+    customization: "Personalize with your company logo, brand name, ideal for corporate gifting, conferences, employee welcome kits, promotional merchandise, and business events."
   },
   {
     id: "prod-043",
@@ -530,8 +530,8 @@ const PRODUCTS = [
     name: "Custom Printed Corporate Round Coaster Set",
     image: "assets/WhatsApp Image 2026-09-02 at 2.49.40 PM (1).jpeg",
     subtitle: "High-Density Non-Slip Cork/MDF Desk Coasters",
-    description: "Durable round drink coasters with heat-resistant laminated top surface, vibrant edge-to-edge printing, and non-slip cork base. Protects conference tables and work desks.",
-    customization: "Full-color custom corporate branding, set of 4 or 6 with branded holder."
+    description: "Stylish and practical MDF coasters designed to protect surfaces while adding a personalized touch to any desk, table, or workspace. With a smooth, printable surface, they are ideal for vibrant branding and creative designs.",
+    customization: "Personalize with company logos, event branding, team colours, names, messages, or custom artwork—perfect for corporate gifting, welcome kits, sports events, conferences, cafés, and promotional merchandise."
   },
   {
     id: "prod-047",
@@ -539,8 +539,8 @@ const PRODUCTS = [
     name: "Signature Branded Ergonomic Mouse Pad (Mer C)",
     image: "assets/WhatsApp Image 2026-09-02 at 3.09.53 PM (1).jpeg",
     subtitle: "Micro-Weave Cloth Surface with Anti-Slip Base",
-    description: "Professional workplace mouse pad engineered with silky micro-weave cloth for pinpoint mouse tracking, anti-fray stitched borders, and non-slip natural rubber base.",
-    customization: "Metallic gold foil print or vibrant full-color sublimation with custom client artwork."
+    description: "A sleek and durable custom mouse pad designed for smooth mouse movement and comfortable everyday use. Its compact desk-friendly size and premium finish make it ideal for both professional workspaces and gaming setups.",
+    customization: "Personalize with your company logo, brand name, team identity, colours, graphics, names, or custom artwork—perfect for corporate gifting, gaming merchandise, promotional merchandise, and branded workspaces."
   },
   {
     id: "prod-048",
@@ -548,8 +548,8 @@ const PRODUCTS = [
     name: "Premium Extended Office Desk Mat (Mer C Setup)",
     image: "assets/WhatsApp Image 2026-09-02 at 3.09.53 PM (2).jpeg",
     subtitle: "Extra-Large Desk Blotter for Keyboard & Mouse",
-    description: "Spacious executive desk pad covering keyboard, mouse, and workspace area. Features water-resistant surface coating, precision stitched borders, and modern executive aesthetics.",
-    customization: "Large format high-definition graphic printing, corporate corner branding."
+    description: "A stylish and durable gaming mouse pad designed for smooth, precise mouse movement and an enhanced gaming experience. Its large surface provides ample room for your mouse and keyboard, while the sleek design adds a modern touch to any gaming or work setup.",
+    customization: "Personalize with gaming graphics, team logos, company branding, names, or custom artwork—perfect for gaming communities, esports events, corporate gifting, promotional merchandise, and branded setups."
   },
   {
     id: "prod-049",
@@ -557,8 +557,8 @@ const PRODUCTS = [
     name: "Executive Metal Perpetual Desk Calendar",
     image: "assets/WhatsApp Image 2026-09-10 at 12.36.10 AM.jpeg",
     subtitle: "Matte Black Easel with Sliding Gold Date Selector",
-    description: "Perpetual lifetime calendar crafted from solid matte black coated steel with magnetic sliding polished gold grid selector and month tracker. A perpetual desk centerpiece.",
-    customization: "Laser engraved company name on bottom plinth, custom gift packaging."
+    description: "A stylish and practical perpetual desktop calendar designed to help organize your schedule year after year. Its reusable design eliminates the need for replacing the calendar annually, making it a smart addition to any office desk or workspace.",
+    customization: "Personalize with your company logo, brand name, colours, messages, or custom branding—perfect for corporate gifting, employee welcome kits, office desks, conferences, and promotional merchandise."
   },
   {
     id: "prod-050",
@@ -566,8 +566,8 @@ const PRODUCTS = [
     name: "Compact Hard-Shell Tech & Travel Organizer Case",
     image: "assets/WhatsApp Image 2026-09-10 at 12.23.49 AM.jpeg",
     subtitle: "Shockproof EVA Case for Cables, Chargers & Gear",
-    description: "Rugged ribbed hardshell organizer case with dual-zipper closure, elastic cable retaining loops, mesh zipper pocket, and wrist lanyard. Keeps travel tech essentials organized.",
-    customization: "Silicone emblem badge, custom zipper pullers, screen printed corporate logo."
+    description: "A stylish and durable hard shell travel organizer designed to keep your essentials neatly arranged while travelling. Its compact design features multiple compartments, elastic holders, mesh pockets, and secure zip closures—perfect for organizing cables, chargers, accessories, toiletries, and other travel essentials.",
+    customization: "Personalize with your company logo, brand name, ideal for corporate travel kits, employee welcome kits, business travellers, conferences, and promotional gifting."
   },
 
   // 8. Handcrafted Keychains & Resin Art
@@ -577,8 +577,8 @@ const PRODUCTS = [
     name: "Custom Resin Gold Leaf Corporate Keychain (Accenture / TIAA)",
     image: "assets/WhatsApp Image 2026-09-02 at 3.06.52 PM.jpeg",
     subtitle: "Hand-Poured Epoxy Resin with 24K Style Gold Flakes",
-    description: "Artisan handcrafted circular resin keychain with crystal-clear resin, suspended gold foil flakes, durable gold hardware ring, and high-resolution corporate logo embedment.",
-    customization: "Full custom logo embedding, client color tints, personalized team names."
+    description: "A premium customized resin keychain featuring elegant gold foil detailing and personalized corporate branding. A thoughtful choice for employee appreciation, corporate events, team gifts, and bulk gifting.\n\nCustomizable:\n• Company Logo\n• Names\n• Initials\n• Colors\n• Messages\n\nBulk Orders Available | Custom Designs Welcome",
+    customization: "Full custom logo embedding, client color tints, personalized team names, and metallic gold foil suspended flakes."
   },
   {
     id: "prod-059",
@@ -586,8 +586,8 @@ const PRODUCTS = [
     name: "Bulk Resin Keychain & Presentation Gift Hamper",
     image: "assets/WhatsApp Image 2026-09-02 at 3.01.46 PM (1).jpeg",
     subtitle: "Corporate Event Golden Hamper & Favor Bags",
-    description: "Turnkey corporate giveaway presentation comprising dozens of individual organza gift bags containing customized gold leaf resin keychains with branded kraft gift boxes.",
-    customization: "Complete branding package, bespoke organza bag colors, custom greeting cards."
+    description: "Handcrafted Resin Art Keychains made especially for bulk gifting and corporate orders. Customize them with company logos, names, initials, colors, and themes.\n\n✨ Ideal for Corporate Gifting • Events • Employee Gifts • Return Gifts • Promotional Merchandise\n\nBulk orders welcome | Custom designs available",
+    customization: "Complete branding package, bespoke organza bag colors, custom greeting cards, logo embedding."
   },
   {
     id: "prod-053",
@@ -595,8 +595,8 @@ const PRODUCTS = [
     name: "Handcrafted Resin Seashell Trinket Dish",
     image: "assets/WhatsApp Image 2026-09-02 at 3.06.53 PM.jpeg",
     subtitle: "Aqua Teal & Gold Rim Artisan Conch Dish",
-    description: "Sculpted resin conch shell bowl featuring translucent ocean teal resin and hand-gilded golden scalloped edges. Functions as a luxury desk paperclip tray or jewelry catchall.",
-    customization: "Bespoke resin pigment blends, custom gift box with personalized note."
+    description: "A beautifully handcrafted Resin Art Candle Holder featuring a unique ocean-inspired design with rich aqua tones and elegant gold detailing.\n\n✨ Handcrafted • Unique Design • Premium Finish\n\nPerfect for home décor, gifting, festive hampers, return gifts, and customized corporate gifts.\n\nCustom colors & designs available | Bulk orders welcome",
+    customization: "Bespoke resin pigment blends, custom gold leaf accents, bulk corporate gift packaging with personalized note."
   },
   {
     id: "prod-054",
@@ -651,8 +651,8 @@ const PRODUCTS = [
     name: "Executive Quencher Travel Tumbler with Ergonomic Handle",
     image: "assets/WhatsApp Image 2026-09-10 at 10.15.59 AM.jpeg",
     subtitle: "1200ml Vacuum Insulated All-Day Desk Tumbler",
-    description: "High-capacity 1200ml stainless steel double-wall vacuum insulated quencher mug with heavy-duty ergonomic handle, splash-resistant lid with reusable straw, and tapered base designed to fit standard vehicle cup holders. Ideal for busy professionals on the move.",
-    customization: "Laser engraving, 360-degree UV rotary printing, custom pantone powder coating, company logo placement."
+    description: "A stylish and durable insulated travel tumbler designed for convenient everyday hydration. Featuring a large ergonomic handle, secure transparent lid, and sleek matte finish, it is ideal for keeping your beverage hot or cold while at work, travelling, or on the go.",
+    customization: "Personalize with your company logo, brand name, colours, employee names, initials, or custom artwork—perfect for corporate gifting, employee welcome kits, events, sports merchandise, and promotional giveaways."
   },
   {
     id: "prod-061",
@@ -660,8 +660,8 @@ const PRODUCTS = [
     name: "Luxury Gold Stainless Steel Pocket Flask Gift Set",
     image: "assets/WhatsApp Image 2026-09-10 at 10.20.31 AM.jpeg",
     subtitle: "Mirror-Polished Metallic Flask in Presentation Box",
-    description: "Distinguished curved pocket hip flask forged from premium food-grade stainless steel with an electroplated mirror-gold finish and leak-proof captive screw top. Presented in an elegant satin-lined gift box, perfect for VIP executive gifting.",
-    customization: "Precision fiber laser etching, custom monogramming, bespoke foil-stamped presentation packaging."
+    description: "A sophisticated stainless steel hip flask with a sleek, polished finish and compact design. Perfect for elegant gifting and special occasions, it combines classic style with convenient portability.",
+    customization: "Personalize with your company logo, initials, name, message, or custom engraving for a distinctive touch—ideal for premium corporate gifting, executive gifts, celebrations, and special events."
   },
   {
     id: "prod-062",
@@ -669,8 +669,8 @@ const PRODUCTS = [
     name: "Executive Dual-Tone Vegan Leather Laptop Briefcase",
     image: "assets/WhatsApp Image 2026-09-10 at 10.28.14 AM.jpeg",
     subtitle: "Onyx Black with Tan Leather Accents & Trolley Sleeve",
-    description: "Crafted from premium water-resistant vegan leather, this executive laptop bag features padded storage for up to 15.6-inch laptops, reinforced dual-tone tan handles, front zippered slip pocket, and a dedicated luggage trolley pass-through strap for business travel.",
-    customization: "Blind debossing, metallic foil stamping, custom engraved metal zipper pulls, branded inner fabric lining."
+    description: "A stylish and professional laptop bag designed for modern work and business needs. Its spacious structure, secure zip closure, sturdy handles, and premium finish make it ideal for carrying laptops, documents, and everyday essentials.\n\nPerfect for:\n• Corporate gifting\n• Employee welcome kits\n• Business professionals\n• Conferences\n• Promotional merchandise",
+    customization: "Add your company logo, employee name, or branding for a personalized corporate gift."
   },
   {
     id: "prod-063",
@@ -678,8 +678,8 @@ const PRODUCTS = [
     name: "Heritage Mocha Brown Vegan Leather Laptop Bag",
     image: "assets/WhatsApp Image 2026-09-10 at 10.29.52 AM.jpeg",
     subtitle: "Multi-Compartment Executive Work & Travel Briefcase",
-    description: "Sleek mocha brown structured laptop briefcase with fine contrast stitching, cushioned protective sleeve for 15.6-inch devices, spacious front organizer compartment for chargers and stationery, and heavy-duty antique brass-finish hardware.",
-    customization: "Subtle heat debossing, laser engraved metal nameplates, custom zipper pulls, bespoke corporate gift tags."
+    description: "A sophisticated brown laptop bag with a spacious design, front utility pocket, sturdy top handles, and premium finish—perfect for professionals and corporate gifting.\n\nPerfect for:\n• Corporate gifts\n• Employee kits\n• Business professionals\n• Conferences\n• Promotional merchandise",
+    customization: "Add your company logo, employee name, or branding for a personalized corporate gift."
   },
   {
     id: "prod-064",
@@ -687,8 +687,8 @@ const PRODUCTS = [
     name: "Minimalist White Vacuum Tumbler with Pivot Carry Handle",
     image: "assets/WhatsApp Image 2026-09-10 at 10.39.46 AM.jpeg",
     subtitle: "Matte Finish Thermal Travel Flask with Integrated Loop",
-    description: "Contemporary double-wall vacuum insulated thermal travel tumbler finished in pure matte white with a fold-flat ergonomic pivot carry handle. Keeps hot drinks warm for 12 hours and chilled beverages cold for 24 hours.",
-    customization: "360-degree UV color printing, precision laser engraving, custom brand messaging, pantone matching."
+    description: "A sleek and versatile insulated travel tumbler designed for convenient everyday use. Featuring a comfortable carry handle, secure flip-top lid, and modern stainless-steel construction, it is ideal for keeping beverages hot or cold at work, while travelling, or on the go.",
+    customization: "Personalize with your company logo, brand name, colours, employee names, initials, or custom artwork—perfect for corporate gifting, employee welcome kits, events, sports merchandise, and promotional giveaways."
   }
 ];
 
