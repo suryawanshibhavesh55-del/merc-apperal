@@ -214,6 +214,16 @@ const PRODUCTS = [
     description: "A premium 100% polyester jersey featuring vibrant all-over digital printing for detailed, eye-catching designs. Finished with a custom vinyl logo, this jersey is ideal for sports teams, corporate events, promotional campaigns, employee merchandise, and customized team apparel.\n\nKey Features:\n• 100% polyester fabric\n• Full digital printing\n• Custom vinyl logo application\n• Lightweight & comfortable\n• Vibrant, detailed graphics\n• Sporty and professional finish",
     customization: "All-over digital printing, heat-pressed vinyl team crest, individual player names & numbers."
   },
+  {
+    id: "prod-071",
+    categoryId: "apparel",
+    apparelType: "round-neck",
+    name: "Premium 180 GSM Cotton Round Neck T-Shirt",
+    image: "assets/apparel-180gsm-cotton-round-neck-colors.jpg",
+    subtitle: "180 GSM | 100% Cotton | Round Neck",
+    description: "A versatile 180 GSM 100% cotton round-neck T-shirt designed for everyday comfort and easy customization. Made from soft, breathable cotton fabric, it offers a clean and comfortable fit, making it ideal for corporate merchandise, promotional campaigns, events, team wear, uniforms, and custom branding.\n\nKey Features:\n• 180 GSM premium cotton fabric\n• 100% cotton\n• Classic round-neck design\n• Soft, breathable & comfortable\n• Durable construction\n• Available in multiple colours\n• Suitable for printing and embroidery",
+    customization: "Screen printing, direct-to-film (DTF) transfers, embroidered chest crest, custom neck tape and size tags."
+  },
 
   // B. Polo Neck T-Shirts
   {
@@ -285,6 +295,16 @@ const PRODUCTS = [
     subtitle: "White Pique Knit with Vibrant Accent Trim",
     description: "Premium 100% Polyester Piqué Polo T-Shirt featuring contrast collar and sleeve detailing with customized digital printing.\n\nKey Features:\n• 100% Polyester Piqué Fabric\n• Classic polo collar\n• Contrast collar, cuffs & hem\n• High-quality digital printing\n• Custom front & back branding\n• Smart, sporty & professional look\n• Ideal for corporate uniforms, teams, events & promotional wear",
     customization: "Screen printing, high-density embroidery, custom dyed collar tipping to match brand hex codes."
+  },
+  {
+    id: "prod-070",
+    categoryId: "apparel",
+    apparelType: "polo",
+    name: "Premium Cotton Piqué Contrast Collar Polo T-Shirt",
+    image: "assets/apparel-pique-contrast-collar-polo-colors.jpg",
+    subtitle: "220 GSM | 100% Cotton | Piqué Fabric | Contrast Collar | Polo Neck",
+    description: "A premium 220 GSM 100% cotton piqué polo T-shirt featuring a stylish contrast-colour collar for a distinctive and professional look. The textured piqué fabric offers comfort, breathability, and durability, making it ideal for corporate uniforms, school & institutional wear, team apparel, events, and promotional merchandise.\n\nKey Features:\n• 220 GSM premium fabric\n• 100% cotton piqué\n• Classic polo neck with button placket\n• Contrast-colour collar\n• Comfortable, breathable & durable\n• Smart and professional finish\n• Available in multiple contrast colour combinations",
+    customization: "Contrast-colour collar options, high-density chest embroidery, corporate logo printing, custom sleeve badges."
   },
 
   // C. Hoodies & Sweatshirts
