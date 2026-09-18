@@ -90,12 +90,12 @@ const CATEGORIES = [
   },
   {
     id: "candles",
-    name: "Handcrafted Candle Holders & Décor",
-    shortName: "Candle Holders & Décor",
+    name: "Handcrafted Candles",
+    shortName: "Candles",
     icon: "flame",
-    representativeImage: "assets/WhatsApp Image 2026-09-02 at 3.01.47 PM (2).jpeg",
-    description: "Artisan jesmonite candle holders, geometric concrete tealight vessels, and handcrafted botanical gel candles.",
-    customizationNote: "Artisan jesmonite/concrete pigments, metallic gold detailing, custom festive gift packaging."
+    representativeImage: "assets/candle-festive-lotus-urli-platter.jpg",
+    description: "Artisanal hand-poured candles, festive floating lotus urli platters, luxury botanical glass candles, and decorative floral candles.",
+    customizationNote: "Custom fragrances, wax colours, festive gift hamper packaging, and corporate branding."
   }
 ];
 
@@ -687,7 +687,43 @@ const PRODUCTS = [
     customization: "Bespoke corporate color border, custom engraved commemorative brass plaque."
   },
 
-  // 9. Candle Holders & Handcrafted Décor
+  // 9. Handcrafted Candles
+  {
+    id: "prod-072",
+    categoryId: "candles",
+    name: "Handcrafted Festive Lotus Floating Candle Platter",
+    image: "assets/candle-festive-lotus-urli-platter.jpg",
+    subtitle: "Festive Floating Lotus Urli Platter Candle",
+    description: "",
+    customization: "Custom wax colors, fragrances, festive gift box packaging, and corporate branding."
+  },
+  {
+    id: "prod-073",
+    categoryId: "candles",
+    name: "Luxury Gold Glitter Glass Tumbler Candle",
+    image: "assets/candle-luxury-gold-glitter-glass.jpg",
+    subtitle: "Aromatherapy Gold Glitter Glass Candle",
+    description: "",
+    customization: "Custom fragrances, client logo glass printing, and luxury presentation packaging."
+  },
+  {
+    id: "prod-074",
+    categoryId: "candles",
+    name: "Handcrafted Rose Bouquet Sphere Candle",
+    image: "assets/candle-handcrafted-rose-sphere.jpg",
+    subtitle: "Artisan Carved Floral Rose Ball Candle",
+    description: "",
+    customization: "Custom pastel shades, floral fragrance infusions, and individual gift wrapping."
+  },
+  {
+    id: "prod-075",
+    categoryId: "candles",
+    name: "Layered Botanical Floral Glass Bowl Candle",
+    image: "assets/candle-layered-botanical-glass-bowl.jpg",
+    subtitle: "Tricolor Scented Soy Wax with Real Dried Botanicals",
+    description: "",
+    customization: "Multi-tier aroma layering, custom botanicals, wooden crackling wick, and custom branding."
+  },
   {
     id: "prod-056",
     categoryId: "candles",
@@ -1094,8 +1130,14 @@ function openProductModal(productId) {
   }
   if (modalCatBadge && cat) modalCatBadge.textContent = cat.name;
   if (modalTitle) modalTitle.textContent = product.name;
-  if (modalSubtitle) modalSubtitle.textContent = product.subtitle;
-  if (modalDesc) modalDesc.textContent = product.description;
+  if (modalSubtitle) {
+    modalSubtitle.textContent = product.subtitle || "";
+    modalSubtitle.style.display = (product.subtitle && product.subtitle.trim() !== "") ? "" : "none";
+  }
+  if (modalDesc) {
+    modalDesc.textContent = product.description || "";
+    modalDesc.style.display = (product.description && product.description.trim() !== "") ? "" : "none";
+  }
   if (modalCustomization) modalCustomization.textContent = product.customization;
 
   // Clear any bulk volume pricing
