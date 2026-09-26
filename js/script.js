@@ -1247,6 +1247,61 @@ function setupEventListeners() {
       }
     });
   });
+
+  // Setup Shipping & Delivery Policy Accordion
+  setupPolicyAccordion();
+}
+
+/**
+ * Collapsible Shipping & Delivery Policy Accordion handler
+ */
+function setupPolicyAccordion() {
+  const card = document.getElementById("policyAccordionCard");
+  const toggleBtn = document.getElementById("policyAccordionToggle");
+  const icon = document.getElementById("policyAccordionIcon");
+
+  if (!card || !toggleBtn) return;
+
+  function setAccordionState(isOpen) {
+    if (isOpen) {
+      card.classList.add("is-open");
+      toggleBtn.setAttribute("aria-expanded", "true");
+      if (icon) icon.textContent = "−";
+    } else {
+      card.classList.remove("is-open");
+      toggleBtn.setAttribute("aria-expanded", "false");
+      if (icon) icon.textContent = "+";
+    }
+  }
+
+  toggleBtn.addEventListener("click", () => {
+    const isCurrentlyOpen = card.classList.contains("is-open");
+    setAccordionState(!isCurrentlyOpen);
+  });
+
+  // Automatically expand if navigated directly to why-us or shipping-policy
+  function checkHash() {
+    const hash = window.location.hash;
+    if (hash === "#why-us" || hash === "#shipping-policy") {
+      setAccordionState(true);
+      setTimeout(() => {
+        const el = document.getElementById("why-us");
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    }
+  }
+
+  // Also hook clicks on any link pointing to #why-us or #shipping-policy
+  document.querySelectorAll('a[href="#why-us"], a[href="#shipping-policy"]').forEach(link => {
+    link.addEventListener("click", () => {
+      setAccordionState(true);
+    });
+  });
+
+  window.addEventListener("hashchange", checkHash);
+  if (window.location.hash === "#why-us" || window.location.hash === "#shipping-policy") {
+    checkHash();
+  }
 }
 
 // Initialization on DOM load

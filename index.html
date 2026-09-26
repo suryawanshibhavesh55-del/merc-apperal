@@ -241,23 +241,96 @@
     </div>
   </section>
 
-  <!-- 6. Modern Shipping & Delivery Policy Section -->
-  <section class="shipping-policy-section" id="why-us">
-    <span id="shipping-policy" style="position:relative; top:-80px; display:block; visibility:hidden;"></span>
-    <div class="policy-container">
-      <div class="policy-header">
-        <span class="modern-section-tag">CUSTOMER GUIDELINES</span>
-        <h2 class="policy-main-title">Shipping &amp; Delivery Policy</h2>
-        <div class="policy-meta-pill">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-          <span>Last Updated: 14 September 2026</span>
-        </div>
-        <p class="policy-intro">
-          At MerC Apparels N Accessories, we are committed to ensuring that your orders are processed, packed, and delivered safely and on time. This Shipping &amp; Delivery Policy explains how we process and deliver orders placed through our website.
+  <!-- 5.5. Modern Our Clients Section -->
+  <section class="section-padding clients-section-modern" id="clients">
+    <div class="container">
+      <div class="section-header-modern">
+        <span class="modern-section-tag">TRUSTED PARTNERSHIPS</span>
+        <h2 class="modern-section-title">Our Clients</h2>
+        <p class="modern-section-subtitle">
+          Trusted by businesses and organizations across industries.
         </p>
       </div>
 
-      <div class="policy-content-wrap">
+      <div class="clients-grid-modern">
+        <div class="client-logo-card">
+          <img src="assets/logo/WhatsApp Image 2026-09-09 at 11.45.19 AM.jpeg" alt="TIAA" class="client-logo-img" loading="lazy" />
+        </div>
+        <div class="client-logo-card">
+          <img src="assets/logo/WhatsApp Image 2026-09-09 at 11.45.30 AM.jpeg" alt="Tiro Sports" class="client-logo-img" loading="lazy" />
+        </div>
+        <div class="client-logo-card">
+          <img src="assets/logo/WhatsApp Image 2026-09-09 at 11.45.59 AM.jpeg" alt="MerC" class="client-logo-img" loading="lazy" />
+        </div>
+        <div class="client-logo-card">
+          <img src="assets/logo/WhatsApp Image 2026-09-09 at 11.46.10 AM.jpeg" alt="Stinger Drafting" class="client-logo-img logo-scale-stinger" loading="lazy" />
+        </div>
+        <div class="client-logo-card">
+          <img src="assets/logo/WhatsApp Image 2026-09-09 at 11.46.20 AM.jpeg" alt="Spotify" class="client-logo-img logo-scale-spotify" loading="lazy" />
+        </div>
+        <div class="client-logo-card">
+          <img src="assets/logo/WhatsApp Image 2026-09-09 at 11.46.35 AM.jpeg" alt="Khelo India" class="client-logo-img" loading="lazy" />
+        </div>
+        <div class="client-logo-card">
+          <img src="assets/logo/WhatsApp Image 2026-09-09 at 11.46.46 AM.jpeg" alt="Lakshya Shooting Club" class="client-logo-img" loading="lazy" />
+        </div>
+        <div class="client-logo-card">
+          <img src="assets/logo/WhatsApp Image 2026-09-09 at 11.46.57 AM.jpeg" alt="Axis Bank" class="client-logo-img logo-blend-clean logo-scale-axis" loading="lazy" />
+        </div>
+        <div class="client-logo-card">
+          <img src="assets/logo/WhatsApp Image 2026-09-09 at 11.47.34 AM.jpeg" alt="Accenture" class="client-logo-img logo-blend-clean" loading="lazy" />
+        </div>
+        <div class="client-logo-card">
+          <img src="assets/logo/WhatsApp Image 2026-09-09 at 11.53.06 AM.jpeg" alt="National Rifle Association of India" class="client-logo-img logo-scale-nrai" loading="lazy" />
+        </div>
+        <div class="client-logo-card">
+          <img src="assets/logo/WhatsApp Image 2026-09-09 at 12.00.10 PM.jpeg" alt="GoSports Foundation" class="client-logo-img logo-blend-clean logo-scale-gosports" loading="lazy" />
+        </div>
+        <div class="client-logo-card">
+          <img src="assets/logo/WhatsApp Image 2026-09-09 at 12.01.43 PM.jpeg" alt="Infosys Foundation" class="client-logo-img logo-blend-clean logo-scale-infosys" loading="lazy" />
+        </div>
+        <div class="client-logo-card">
+          <img src="assets/logo/WhatsApp Image 2026-09-09 at 12.08.55 PM.jpeg" alt="RR" class="client-logo-img logo-blend-rr logo-scale-rr" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Modern Shipping & Delivery Policy Section (Collapsible Accordion) -->
+  <section class="shipping-policy-section" id="why-us">
+    <span id="shipping-policy" style="position:relative; top:-80px; display:block; visibility:hidden;"></span>
+    <div class="policy-container">
+      <div class="policy-accordion-card" id="policyAccordionCard">
+        <button 
+          type="button" 
+          class="policy-accordion-header" 
+          id="policyAccordionToggle" 
+          aria-expanded="false" 
+          aria-controls="policyAccordionCollapse"
+        >
+          <div class="policy-accordion-title-wrap">
+            <span class="policy-accordion-badge">CUSTOMER GUIDELINES</span>
+            <h2 class="policy-accordion-title">Shipping &amp; Delivery Policy</h2>
+            <p class="policy-accordion-hint">Click to read order processing, timelines &amp; delivery terms</p>
+          </div>
+          <div class="policy-accordion-icon-wrap" aria-hidden="true">
+            <span class="policy-accordion-icon" id="policyAccordionIcon">+</span>
+          </div>
+        </button>
+
+        <div class="policy-accordion-collapse" id="policyAccordionCollapse" role="region" aria-labelledby="policyAccordionToggle">
+          <div class="policy-accordion-body">
+            <div class="policy-header-inner">
+              <div class="policy-meta-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                <span>Last Updated: 14 September 2026</span>
+              </div>
+              <p class="policy-intro">
+                At MerC Apparels N Accessories, we are committed to ensuring that your orders are processed, packed, and delivered safely and on time. This Shipping &amp; Delivery Policy explains how we process and deliver orders placed through our website.
+              </p>
+            </div>
+
+            <div class="policy-content-wrap">
         <!-- 1. Order Processing -->
         <article class="policy-block">
           <h3 class="policy-block-title"><span class="policy-num">1.</span> Order Processing</h3>
@@ -438,6 +511,9 @@
         </div>
         <p>Delivery timelines mentioned on this page are estimates and are not guaranteed unless a specific delivery commitment has been expressly communicated to the customer.</p>
         <p>MerC Apparels N Accessories reserves the right to update or modify this Shipping &amp; Delivery Policy from time to time. Any changes will be published on this page.</p>
+      </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
