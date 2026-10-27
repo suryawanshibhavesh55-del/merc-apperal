@@ -752,6 +752,114 @@ const PRODUCTS = [
     customization: "Custom aromatherapy fragrances (Ocean Breeze, Sandalwood, Lavender), custom branded glass print."
   },
   {
+    id: "prod-076",
+    categoryId: "candles",
+    name: "Artisan Lavender Rose Gold Lotus Urli Candle",
+    image: "assets/new candles/WhatsApp Image 2026-10-02 at 3.50.14 PM.jpeg",
+    subtitle: "Handcrafted Sculpted Rose in Metallic Lotus Petal Vessel",
+    description: "",
+    customization: "Custom wax colors, fragrances, festive gift box packaging, and corporate branding."
+  },
+  {
+    id: "prod-077",
+    categoryId: "candles",
+    name: "Festive Sunflower Scalloped Platter Urli Candle",
+    image: "assets/new candles/WhatsApp Image 2026-10-02 at 3.50.14 PM (1).jpeg",
+    subtitle: "Multi-Wick Mint & Sunflower Festive Decor Urli",
+    description: "",
+    customization: "Custom wax colors, fragrances, festive gift box packaging, and corporate branding."
+  },
+  {
+    id: "prod-078",
+    categoryId: "candles",
+    name: "Serene Lotus Pond Gift Box Platter Candle",
+    image: "assets/new candles/WhatsApp Image 2026-10-02 at 3.50.15 PM.jpeg",
+    subtitle: "Artisanal Blue Pond Candle with Lotus & Pearls in Gift Box",
+    description: "",
+    customization: "Custom wax colors, fragrances, festive gift box packaging, and corporate branding."
+  },
+  {
+    id: "prod-079",
+    categoryId: "candles",
+    name: "Emerald Lily Pond Festive Platter Candle",
+    image: "assets/new candles/WhatsApp Image 2026-10-02 at 3.50.15 PM (1).jpeg",
+    subtitle: "Sparkling Mint Water Lily & Botanical Embed Platter Candle",
+    description: "",
+    customization: "Custom wax colors, fragrances, festive gift box packaging, and corporate branding."
+  },
+  {
+    id: "prod-080",
+    categoryId: "candles",
+    name: "Divine Ganesha Betel Leaf Festive Platter Candle",
+    image: "assets/new candles/WhatsApp Image 2026-10-02 at 3.50.15 PM (2).jpeg",
+    subtitle: "Sacred Paan Leaf Ganesha Motif in Scalloped Golden Urli",
+    description: "",
+    customization: "Custom wax colors, fragrances, festive gift box packaging, and corporate branding."
+  },
+  {
+    id: "prod-081",
+    categoryId: "candles",
+    name: "Blooming Floral Bouquet Platter Candle",
+    image: "assets/new candles/WhatsApp Image 2026-10-02 at 3.50.16 PM.jpeg",
+    subtitle: "Multi-Colored Artisan Flower Garden Platter in Gift Box",
+    description: "",
+    customization: "Custom wax colors, fragrances, festive gift box packaging, and corporate branding."
+  },
+  {
+    id: "prod-082",
+    categoryId: "candles",
+    name: "Four Seasons Botanical Flower Bowl Candle",
+    image: "assets/new candles/WhatsApp Image 2026-10-02 at 3.50.16 PM (1).jpeg",
+    subtitle: "Vibrant Handcrafted Floral Clusters in Polished Brass Bowl",
+    description: "",
+    customization: "Custom wax colors, fragrances, festive gift box packaging, and corporate branding."
+  },
+  {
+    id: "prod-083",
+    categoryId: "candles",
+    name: "Handcrafted Pink Gerbera Daisy Urli Candle",
+    image: "assets/new candles/WhatsApp Image 2026-10-02 at 3.50.16 PM (2).jpeg",
+    subtitle: "Sculpted Floral Blossom in Brass Scalloped Vessel",
+    description: "",
+    customization: "Custom wax colors, fragrances, festive gift box packaging, and corporate branding."
+  },
+  {
+    id: "prod-084",
+    categoryId: "candles",
+    name: "Executive Dual Floral Urli Candle Gift Hamper Set",
+    image: "assets/new candles/WhatsApp Image 2026-10-02 at 3.50.16 PM (3).jpeg",
+    subtitle: "Curated Twin Brass Urli Candle Hamper in Luxury Presentation Box",
+    description: "",
+    customization: "Custom wax colors, fragrances, festive gift box packaging, and corporate branding."
+  },
+  {
+    id: "prod-085",
+    categoryId: "candles",
+    name: "Auspicious Brass Tortoise Kurma Urli Candle",
+    image: "assets/new candles/WhatsApp Image 2026-10-02 at 3.50.17 PM.jpeg",
+    subtitle: "Traditional Brass Tortoise Stand with Pearl & Gold Leaf Candle",
+    description: "",
+    customization: "Custom wax colors, fragrances, festive gift box packaging, and corporate branding."
+  },
+  {
+    id: "prod-086",
+    categoryId: "candles",
+    name: "Pink Lotus Blossom & Pearl Gold Urli Candle",
+    image: "assets/new candles/WhatsApp Image 2026-10-02 at 3.50.17 PM (1).jpeg",
+    subtitle: "Sculpted Lotus Bloom with Floating Pearls in Gold Vessel",
+    description: "",
+    customization: "Custom wax colors, fragrances, festive gift box packaging, and corporate branding."
+  },
+  {
+    id: "prod-087",
+    categoryId: "candles",
+    name: "Lush Succulent Garden Platter Candle",
+    image: "assets/new candles/WhatsApp Image 2026-10-02 at 3.50.17 PM (2).jpeg",
+    subtitle: "Multi-Wick Hand-Poured Succulent Cluster in Festive Gift Box",
+    description: "",
+    customization: "Custom wax colors, fragrances, festive gift box packaging, and corporate branding."
+  },
+  {
     id: "prod-060",
     categoryId: "bottles",
     name: "Executive Quencher Travel Tumbler with Ergonomic Handle",
